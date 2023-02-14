@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script src="{% static 'scripts.js' %}"></script>
+    {% block title %}<title>Synapsis - about our clinic</title>{% endblock %}
+</head>
+<body>
+    {% block content %}
+    <main>
+        <section class="our-team">
+            <div class="team-person">
+                <h2 class="name">Anders Berntsson</h2>
+                <p class="cv">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <img src="{% static '/images/team-pictures/placeholder.png' %}" alt="" class="profile-pic">
+        </section>
+        <section class="our-team">
+            <div class="team-person">
+                <h2 class="name">Person 2</h2>
+                <p class="cv">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <img src="{% static '/images/team-pictures/placeholder.png' %}" alt="" class="profile-pic">
+        </section>
+    </main>
+    {% endblock %}
+</body>
+</html>

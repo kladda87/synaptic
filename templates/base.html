@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script src="{% static 'scripts.js' %}"></script>
+    {% block title %}<title>Document</title>{% endblock %}
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- byt logo-name nedan mot en bred bild inkl namn -->
+            <a href="/"><div class="logo-name"><img src="{% static '/images/logo-placeholder-image.png' %}" alt="Logo" height="75px"><p>SYNAPSIS</p></div></a>
+        <a href="#" class="toggle-button" onclick="navbarExpand()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <ul class="navbar-links">
+            <li><a href="/about/">About us</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="/staff/">Our staff</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        </nav>
+    </div>
+</header>
+{% block content %}
+{% endblock %}
+</body>
+</html>
