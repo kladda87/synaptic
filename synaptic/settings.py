@@ -38,6 +38,9 @@ if DEBUG:
 else:
     ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='').split(',')
 
+print("DEBUG VALUE:", DEBUG)
+print("ALLOWED_HOSTS:", ALLOWED_HOSTS)
+
 # Application definition
 
 INSTALLED_APPS = [
