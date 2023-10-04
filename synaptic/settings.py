@@ -100,9 +100,13 @@ DATABASES = {
 }
 
 # Overwrite DATABASES configuration with DATABASE_URL if it's defined (e.g., in Heroku)
-db_from_env = dj_database_url.config(default=os.getenv('DATABASE_URL'), conn_max_age=500)
-if db_from_env:
-    DATABASES['default'].update(db_from_env)
+DATABASE_URL = config('DATABASE_URL', default=None)
+if DATABASE_URL:
+    DATABASES['default'] = dj_database_url.parse(DATABASE_URL, conn_max_age=500)
+    
+# db_from_env = dj_database_url.config(default=os.getenv('DATABASE_URL'), conn_max_age=500)
+# if db_from_env:
+#     DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -138,10 +142,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
-    '/var/www/static/',
 ]
 
 # Default primary key field type
