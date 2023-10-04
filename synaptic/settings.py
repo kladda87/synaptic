@@ -84,8 +84,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'synapticdb',
-        'USER': 'db_username',
-        'PASSWORD': 'db_password',
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
         'HOST': 'localhost',  # or the address of your PostgreSQL server
         'PORT': '5433',  # leave as an empty string to use the default port
     }
