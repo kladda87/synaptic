@@ -15,7 +15,8 @@ import os
 import django_heroku
 import dj_database_url
 from decouple import config
-
+import logging
+import sys
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -103,7 +104,7 @@ DATABASES = {
 DATABASE_URL = config('DATABASE_URL', default=None)
 if DATABASE_URL:
     DATABASES['default'] = dj_database_url.parse(DATABASE_URL, conn_max_age=500)
-    
+
 # db_from_env = dj_database_url.config(default=os.getenv('DATABASE_URL'), conn_max_age=500)
 # if db_from_env:
 #     DATABASES['default'].update(db_from_env)
@@ -167,5 +168,22 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # EMAIL_HOST_USER = 'your_email@gmail.com'  # Replace with your email
 # EMAIL_HOST_PASSWORD = 'your_password'  # Replace with your password
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'stream': sys.stdout,
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
+    },
+}
 
 django_heroku.settings(locals())
