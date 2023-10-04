@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}<title>FAQ</title>{% endblock %}
+</head>
+<body>
+
+{% block content %}
+    <main class="faq-main">
+        <h2>FAQ</h2>
+        {% for faq in faq_list %}
+        <div class="faq">
+            <h3 class="faq-question" onclick="toggleAnswer(this.nextElementSibling)">
+                {{ faq.question }}
+            </h3>
+            <p class="faq-answer hidden">
+                {{ faq.answer }}
+            </p>
+        </div>
+        {% endfor %}
+    </main>
+    
+    <script>
+        function toggleAnswer(element) {
+            element.classList.toggle("hidden");
+        }
+    </script>
+{% endblock %}    
+
+</body>
+</html>

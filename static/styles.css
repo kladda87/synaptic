@@ -4,6 +4,14 @@
   
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 1.25rem;
+}
+
+main {
+    margin-top: 90px;
 }
 
 .navbar {
@@ -72,6 +80,12 @@ nav ul li {
     border-radius: 10px;
 }
 
+#content-wrap {
+    flex: 1;
+}
+
+/** Index **/
+
 .hero {
     /* margin-top: 90px; */
     background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/index_hero_img.jpg");
@@ -88,7 +102,16 @@ nav ul li {
     margin: 0;
 }
 
-.hero h1 {
+.hero-content {
+    text-align: center; /* Aligns the text and img element to the center */
+}
+
+.hero-image {
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the block element */
+}
+
+/* .hero h1 {
     color: white;
     font-size: 3rem;
     text-align: center;
@@ -98,7 +121,7 @@ nav ul li {
 .hero p {
     color: white;
     text-align: center;
-}
+} */
 
 section {
     display: grid;
@@ -109,7 +132,10 @@ section {
     align-items: center;
     gap: 20px;
     border-bottom: 0.5px solid rgb(182, 182, 182);
-    
+}
+
+section:is(:last-child) {
+    border-bottom: none;
 }
 
 section h2 {
@@ -122,18 +148,262 @@ section img {
     overflow: hidden;
 }
 
+/* ********* Footer ******** */
+#myFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2; /* Light grey background */
+    padding: 10px 0; /* Add some padding to top and bottom */
+    border-top: 1px solid rgba(145, 143, 143, 50%);
+    position: relative;
+    font-size: 1rem;
+}
+
+#footer-info {
+    margin-left: 60px;
+}
+
+#footer-links {
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer-links a {
+    margin-right: 20px;
+    color: #333; /* Dark grey text */
+    text-decoration: none; /* Remove underline */
+    font-weight: 600; /* Make the text a bit bolder */
+    padding: 5px 10px; /* Add some padding */
+}
+
+#footer-links a:not(:last-child) {
+    margin-right: 20px;
+}
+
+#footer-links a:hover {
+    color: #0056b3; /* Change color when hovered */
+    text-decoration: underline; /* Underline when hovered */
+}
+
+
 /* ********* About us ******** */
 
-main {
-    margin-top: 90px;
-
+.about-main {
+    display: block;
+    border-bottom: none;
+    margin-left: 60px;
+    margin-right: 60px;
 }
+.about-main img {
+    width: 100%;
+    /* max-height: 60vh; */
+    overflow: hidden;
+}
+/* ********* Our staff ******** */
 
 .profile-pic {
     max-width: 300px;
     margin-left: auto;
 
 }
+
+/* ********* News ******** */
+
+.news-main {
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.news-entry {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    clear: both;  /* Clear float */
+}
+
+.news-headline {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news-wrapper {
+    /* removed flex to let the float work its magic */
+}
+
+.news-image {
+    float: left; /* Float the image */
+    max-width: 50%;
+    margin-right: 20px;  /* Space between the image and text */
+    margin-bottom: 20px;  /* Space below the image */
+}
+
+.news-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.news-date {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
+
+
+/** FAQ  **/
+
+.faq-main {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 90px;
+}
+
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f2f2f2; /* Light grey background */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.faq-answer.hidden {
+    display: none;
+}
+
+.faq-answer {
+    margin-left: 1rem;
+    transition: max-height 0.2s ease-out;
+}
+
+/** Contact Us **/
+
+.contact-main {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 750px;
+    /* padding: 15px; */
+    /* background-color: #EBFAF2; */
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title-info {
+    /* background-color: #EBFAF2; */
+    width: 80%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title-info h3 {
+    margin-bottom: 5px;
+}
+
+.contact-title-info p {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.contact-form {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-field:first-child {
+    margin-right: 15px;
+}
+
+.form-field {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea.form-control {
+    resize: none;
+    height: 150px;
+  }  
+
+.btn {
+    background-color: #6e6b6b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+  
+/** contact success page **/
+.contact-success-card {
+    width: 80%;
+    max-width: 400px;
+    margin: 110px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-success-card h1,
+.contact-success-card p {
+    margin-bottom: 20px;
+}
+
+.contact-success-card a {
+    text-decoration: none;
+    color: #6e6b6b;
+    padding: 10px;
+    border: 1px solid #6e6b6b;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-success-card a:hover {
+    background-color: #333;
+    color: white;
+}
+
+
+/** responsive mobile **/
 
 @media (max-width: 850px) {
     .toggle-button {
@@ -178,6 +448,14 @@ main {
             grid-template-columns: 1fr;
             margin-top: 90px;
             gap: 75px;
+        }
+
+        #myFooter {
+            flex-direction: column;
+        }
+
+        #footer-links, #footer-info {
+            margin: 0;
         }
 
         /* reversera ordning så bild hamnar överst */

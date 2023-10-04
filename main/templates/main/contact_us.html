@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}<title>Welcome to Synaptic</title>{% endblock %}
+</head>
+<body>
+
+{% block content %}
+<main class="contact-main">
+    <div class="contact-container">
+        <div class="contact-title-info">
+            <h3>Contact Us</h3>
+            <p>Fields marked with * are mandatory</p>
+        </div>
+        <form method="post" class="contact-form">
+            {% csrf_token %}
+            
+            <div class="contact-name">
+                <div class="form-field">
+                <label for="{{ form.first_name.id_for_label }}">First Name*</label>
+                <input type="text" id="{{ form.first_name.id_for_label }}" name="{{ form.first_name.name }}" class="form-control">
+                </div>
+                
+                <div class="form-field">
+                <label for="{{ form.surname.id_for_label }}">Surname*</label>
+                <input type="text" id="{{ form.surname.id_for_label }}" name="{{ form.surname.name }}" class="form-control" required>
+                </div>
+            </div>
+            
+            <div class="form-field">
+            <label for="{{ form.email_address.id_for_label }}">Email Address*</label>
+            <input type="email" id="{{ form.email_address.id_for_label }}" name="{{ form.email_address.name }}" class="form-control" required>
+            </div>
+            
+            <div class="form-field">
+            <label for="{{ form.phone_number.id_for_label }}">Phone Number</label>
+            <input type="tel" id="{{ form.phone_number.id_for_label }}" name="{{ form.phone_number.name }}" class="form-control">
+            </div>
+
+            <div class="form-field">
+            <label for="{{ form.message.id_for_label }}">Message*</label>
+            <textarea id="{{ form.message.id_for_label }}" name="{{ form.message.name }}" class="form-control" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send</button>
+
+        </form>
+    </div>
+</main>
+{% endblock %}  
+
+</body>
+</html>

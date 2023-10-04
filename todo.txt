@@ -1,6 +1,16 @@
 - Hero image croppas snyggare vid resizing, vill ha "mitten" av bilden vid mobile
 - Centrera section content i section (ngn grid inställning) så sektionerna separeras ut något
-- Lägg till news?
-- Byta till Django? Få admin fkn osv, bra om vi ska ha news, enklare templates, plus ytterligare inlärning för mig på Python o Django
-    * Kommer bli enklare om man exv. ska ha en kontaktformulär osv?
-- Fixa FAQ, News och Staff som models så man kan fixa det i Admin?
+
+- Mobile/responsive
+    * FAQ
+    * News
+    * Contact
+
+- Logo size i navbar ändra storlek för responsive
+    * Storlek på logo 3 nivåer beroende på window size
+    * Tidigarelägga navbar meny till hamburgare (länkar krockar med logo vid vissa storlekar nu)
+
+- News (efter lansering imo)
+    * dela upp på cards och single story
+    * Single story layout som contact form card ish
+    

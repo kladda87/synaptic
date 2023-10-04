@@ -8,18 +8,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'styles.css' %}">
     <script src="{% static 'scripts.js' %}"></script>
-    {% block title %}<title>Synapsis - about our clinic</title>{% endblock %}
+    {% block title %}<title>SYNAPTIC - about our clinic</title>{% endblock %}
 </head>
 <body>
     {% block content %}
     <main>
-        <section class="about-main">
+        <div class="about-main">
             <img src="{% static '/images/venue.jpg' %}" alt="">
             <div class="about-text">
-                <h2>A new promise to treat addiction</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <h2>About us</h2>
+                <p>Synaptic is a newly started modern addiction rehab center that offers in-clinic treatment in Greece. 
+                It is a colloboration between psychiatrists from Sweden and Greece with decades of experience between them. 
+                We are inspired by the massive scientific insights that have emerged since the 1970’s into the complexities of
+                addictive disorder. Evidence shows that addiction is a multifactorial condition, intimately linked to
+                psychiatric and social factors in a manner that makes successful treatment impossible unless the
+                patient’s entire life situation is taken into consideration. Addictive disorder is connected to certain
+                substances’ potential to cause craving and physical problems for persons who are addicted, but also
+                to a lack of social context and meaning in life. It is closely intertwined with several psychiatric and
+                neuropsychiatric conditions that can obstruct recovery if not they, too, are treated. That is why
+                Synaptic does not only offer traditional 12-step treatment, relapse prevention, and motivational
+                therapy, but also continuously adapts the treatment options to the individual client.</p>
+
+                <p>We have access to experienced doctors, specializing in addiction medicine and psychiatry, seven
+                days a week, as well as therapists and nurses trained in modern addiction care. Our approach is not
+                to judge or moralize, instead we want to offer an alternative for those who face the greatest
+                challenges in recovering from addiction, i.e. those who have a known or undiagnosed psychiatric
+                comorbidity, those who have exhausted other options and tried different clinics but still relapse after
+                completed treatment and those who have a weak or non-existent social network.</p>
+
+                <p> Synaptic closely monitors the clients’ wellbeing through all the various aspects that perpetuate
+                the addiction, we can also offer treatment optimized for the individual patient. This may entail making
+                a neuropsychiatric assessment at the clinic. It could also mean determining if a patient suffers from
+                depression or anxiety disorder and requires psychotherapy or medication to treat these in order to
+                maintain sobriety. We also offer the most up-to-date treatments for the addictive disorder itself, which
+                is not always the case at addiction rehab clinics in Sweden. We follow research and developments in
+                the field very closely and adjust our range of offerings accordingly.</p>
+
+                <p>Treatment of addictive disorders is currently going through a massive transformation, both in regard to
+                psychotherapy and pharmacological options. In order to offer the very best, state-of-the -art treatment,
+                Synaptic keeps a close tab on global research, so that clients have access to the specific treatment
+                option for which there is most evidence for their particular problem. Addictive disorder is never a
+                singular syndrome, rather it is a product of both the individual and the substance involved. How
+                difficult it is to reach and maintain sobriety depends on which substance is being abused. The most
+                addictive substances, which according to scientific evidence have the most negative effects on
+                individuals and society, are opioids and alcohol. Synaptic is the only Swedish addiction rehab
+                concept outside of the public health system that can offer a full range of addictive disorder treatments
+                and, as opposed to public health facilities, our clients can receive such help continuously throughout
+                their stay in Greece.
+                </p>
+
+                <p>We are currently hosted within the GALENE clinic facilities. The clinic, which was founded in 1971, offers 
+                patients world class care for psyciatric disorders. You can read more about the clinic and see photos of the 
+                faclities at <a href="https://galene.gr/">GALENE's website</a>.
+                </p>
             </div>
-        </section>
+        </div>
     </main>
     {% endblock %}
 </body>

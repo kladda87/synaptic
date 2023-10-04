@@ -9,22 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'styles.css' %}">
     <script src="{% static 'scripts.js' %}"></script>
-    {% block title %}<title>Welcome to Synapsis</title>{% endblock %}
+    {% block title %}<title>Welcome to Synaptic</title>{% endblock %}
 </head>
 <body>
     {% block content %}
-    <section class="hero"  >
-        <h1>A different rehab clinic</h1>
-        <p>We provide the best treatment options for individuals struggling with addiction.</p>
+    <section class="hero">
+        <div class="hero-content">
+            <img src="{% static '/images/logo-slogan-white.png' %}" alt="Descriptive text" class="hero-image"/>
+        </div>
+        <!-- <h1>A different rehab clinic</h1>
+        <p>We provide the best treatment options for individuals struggling with addiction.</p> -->
         <!-- <a href="#contact" class="cta-button">Contact Us</a> -->
     </section>
 
     <main>
         <section id="about">
-            <img src="{% static '/images/venue.jpg' %}" alt="">
+            <img src="{% static '/images/about-index.jpg' %}" alt="">
             <div class="section-text">
-                <h2>About Our Center</h2>
-                <p>Our rehab center is located in a secluded and peaceful location, providing the perfect environment for recovery. Our staff is highly qualified and experienced, and our treatment program is tailored to the individual needs of each patient.</p>
+                <h2>About Us</h2>
+                <p>We are newly started clinic through the collaboration between Swedish and Greek psychiatrist with decades of experience in treating addiction. </p> 
+                <p>Our center is hosted within the <a href="https://galene.gr/"> GALENE clinic facilities</a>, in the north-east of Athens. Our staff is highly qualified and experienced, and our treatment program is tailored to the individual needs of each patient.</p>
             </div>
         </section>
         <section id="programs">
@@ -59,7 +63,7 @@
         <section id="faq">
             <div class="section-text">
                 <h2>Frequently Asked Questions</h2>
-                <p>We understand that you may have questions about our center and treatment programs. Please visit our <a href="faq.html">FAQ page</a> for more information.</p>
+                <p>We understand that you may have questions about our center and treatment programs. Please visit our <a href="/faq/">FAQ page</a> for more information.</p>
             </div>
         </section>
     </main>

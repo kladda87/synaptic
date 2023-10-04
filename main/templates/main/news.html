@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}<title>News</title>{% endblock %}
+</head>
+<body>
+{% block content %}
+    <main class="news-main">
+        {% for news in news_list %}
+        <div class="news-entry">
+            <h2 class="news-headline">{{ news.headline }}</h2>
+            <div class="news-wrapper">
+                <img src="{{ news.news_image.url }}" alt="{{ news.headline }}" class="news-image"/>
+                <div class="news-content">
+                    <p class="news-text">{{ news.body_text|linebreaks }}</p>
+                    <span class="news-date">{{ news.date_published }}</span>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </main>
+{% endblock %}
+
+
+
+
+</body>
+</html>

@@ -13,21 +13,17 @@
 <body>
     {% block content %}
     <main>
+        {% for staff in staff_members %}
         <section class="our-team">
             <div class="team-person">
-                <h2 class="name">Anders Berntsson</h2>
-                <p class="cv">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h2 class="name">{{ staff.name }}</h2>
+                <p class="cv">{{ staff.description }}</p>
             </div>
-            <img src="{% static '/images/team-pictures/placeholder.png' %}" alt="" class="profile-pic">
+            <img src="{{ staff.staff_image.url }}" alt="" class="profile-pic">
         </section>
-        <section class="our-team">
-            <div class="team-person">
-                <h2 class="name">Person 2</h2>
-                <p class="cv">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-            <img src="{% static '/images/team-pictures/placeholder.png' %}" alt="" class="profile-pic">
-        </section>
+        {% endfor %}
     </main>
     {% endblock %}
+    
 </body>
 </html>
