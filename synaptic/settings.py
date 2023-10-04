@@ -28,10 +28,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4ed+5_0m_$2)t=lj7--la^-@^kxoo0tut20mo-#l^oyx&=t=(g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
-
+if DEBUG:
+    ALLOWED_HOSTS = ['*']
+else:
+    ALLOWED_HOSTS = ['www.synapticmindcare.com', 'synapticmindcare.com']
 
 # Application definition
 
@@ -55,6 +57,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
+
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 ROOT_URLCONF = 'synaptic.urls'
 
@@ -91,6 +97,10 @@ DATABASES = {
     }
 }
 
+# Overwrite DATABASES configuration with DATABASE_URL if it's defined (e.g., in Heroku)
+db_from_env = dj_database_url.config(default=os.getenv('DATABASE_URL'), conn_max_age=500)
+if db_from_env:
+    DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
