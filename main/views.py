@@ -2,18 +2,34 @@ from django.shortcuts import render, redirect
 from .models import Staff, News, FAQ 
 from .forms import ContactForm
 from django.core.mail import send_mail
+from django.http import HttpResponseServerError
+import logging
+
+logger = logging.getLogger(__name__)
 
 def staff(request):
-    staff_members = Staff.objects.all()  # Query the database for all Staff objects
-    return render(request, 'main/staff.html', {'staff_members': staff_members})
+    try:
+        staff_members = Staff.objects.all()  # Query the database for all Staff objects
+        return render(request, 'main/staff.html', {'staff_members': staff_members})
+    except Exception as e:
+        logger.error(f"Error in staff view: {str(e)}")
+        return HttpResponseServerError("Internal Server Error")
 
 def faq(request):
-    faq_list = FAQ.objects.all()  # Query the database for all Staff objects
-    return render(request, 'main/faq.html', {'faq_list': faq_list})
+    try:
+        faq_list = FAQ.objects.all()  # Query the database for all Staff objects
+        return render(request, 'main/faq.html', {'faq_list': faq_list})
+    except Exception as e:
+        logger.error(f"Error in faq view: {str(e)}")
+        return HttpResponseServerError("Internal Server Error")
 
 def news(request):
-    news_list = News.objects.all().order_by('-date_published')  # Sorting by newest first
-    return render(request, 'main/news.html', {'news_list': news_list})
+    try:
+        news_list = News.objects.all().order_by('-date_published')  # Sorting by newest first
+        return render(request, 'main/news.html', {'news_list': news_list})
+    except Exception as e:
+        logger.error(f"Error in news view: {str(e)}")
+        return HttpResponseServerError("Internal Server Error")
 
 def index(request):
     return render(request, 'main/index.html')
