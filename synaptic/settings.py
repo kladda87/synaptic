@@ -38,8 +38,8 @@ if DEBUG:
 else:
     ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='').split(',')
 
-print("DEBUG VALUE:", DEBUG)
-print("ALLOWED_HOSTS:", ALLOWED_HOSTS)
+# print("DEBUG VALUE:", DEBUG)
+# print("ALLOWED_HOSTS:", ALLOWED_HOSTS)
 
 # Application definition
 
@@ -108,8 +108,8 @@ DATABASE_URL = config('DATABASE_URL', default=None)
 if DATABASE_URL:
     DATABASES['default'] = dj_database_url.parse(DATABASE_URL, conn_max_age=500)
 
-logger = logging.getLogger('django')
-logger.error(f"DATABASE CONFIG: {DATABASES['default']}")
+# logger = logging.getLogger('django')
+# logger.error(f"DATABASE CONFIG: {DATABASES['default']}")
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
