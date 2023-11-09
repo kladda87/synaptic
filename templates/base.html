@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,12 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'styles.css' %}">
     <script src="{% static 'scripts.js' %}"></script>
-    {% block title %}<title>Document</title>{% endblock %}
+    {% block title %}<title>SYNAPCTIC</title>{% endblock %}
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <!-- byt logo-name nedan mot en bred bild inkl namn -->
             <a href="/"><div class="logo-name"><img src="{% static 'images/logo-symbol-blue.png' %}" alt="Logo" height="75px"><img src="{% static 'images/logo-name&slogan-black.jpg' %}" alt="Logo" height="75px"></div></a>
         <a href="#" class="toggle-button" onclick="navbarExpand()">
             <span class="bar"></span>
@@ -21,11 +21,26 @@
             <span class="bar"></span>
         </a>
         <ul class="navbar-links">
-            <li><a href="/about/">About us</a></li>
-            <li><a href="/news">News</a></li>
-            <li><a href="/staff/">Our staff</a></li>
-            <li><a href="/faq/">FAQ</a></li>
-            <li><a href="/contact_us/">Contact Us</a></li>
+            <li><a href="/about/">{% trans 'About us' %}</a></li>
+            <li><a href="/news">{% trans 'News' %}</a></li>
+            <li><a href="/staff/">{% trans 'Our staff' %}</a></li>
+            <li><a href="/faq/">{% trans 'FAQ' %}</a></li>
+            <li><a href="/contact_us/">{% trans 'Contact Us' %}</a></li>
+            <li class="language-select-wrapper">
+                <form action="{% url 'set_language' %}" method="post">
+                    {% csrf_token %}
+                    <input name="next" type="hidden" value="{{ redirect_to }}" />
+                    <select name="language" onchange="this.form.submit()">
+                        {% get_current_language as LANGUAGE_CODE %}
+                        {% get_available_languages as LANGUAGES %}
+                        {% for lang in LANGUAGES %}
+                            <option value="{{ lang.0 }}" {% if lang.0 == LANGUAGE_CODE %} selected {% endif %}>
+                                {{ lang.1 }} <!-- Display language name -->
+                            </option>
+                        {% endfor %}
+                    </select>
+                </form>
+            </li>
         </ul>
         </nav>
     </header>
@@ -37,12 +52,12 @@
 
 <footer id="myFooter">
     <div id="footer-info">
-        <p>SYNAPTIC Mind Care Therapeutics © 2023</p>
+        <p>SYNAPTIC Mind Care Therapeutics AB © 2023</p>
     </div>
     <div id="footer-links">
-        <a href="/privacy/">Website Privacy Notice</a>
-        <a href="/cookies/">Cookies</a>
-        <a href="#" id="toTop">To the top &#8593;</a>
+        <a href="/privacy/">{% trans 'Website Privacy Notice' %}</a>
+        <a href="/cookies/">{% trans 'Cookies' %}</a>
+        <a href="#" id="toTop">{% trans 'To the top' %}&#8593;</a>
     </div>
 </footer>
 

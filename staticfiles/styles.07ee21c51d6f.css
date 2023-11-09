@@ -45,7 +45,7 @@ main {
     display: flex;
     justify-content: right;
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 60px;
     }
 
 nav ul li {
@@ -84,31 +84,11 @@ nav ul li {
     flex: 1;
 }
 
-/* .language-select-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    margin-right: 60px;
-} */
-
-.language-select-wrapper {
-    list-style: none; /* Removes bullet points from li elements */
-    margin: 0;
-    /* padding: .5rem 1rem; */
-    text-align: center;
-}
-
-/* .language-select-form {
-    margin-right: 60;
-} */
-
-
 /** Index **/
 
 .hero {
     /* margin-top: 90px; */
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/index_hero_img.jpg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/index_hero_img.78bdf19a79ce.jpg");
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -425,7 +405,7 @@ textarea.form-control {
 
 /** responsive mobile **/
 
-@media (max-width: 1150px) {
+@media (max-width: 1000px) {
     .toggle-button {
         display: flex;   
     }
@@ -465,7 +445,6 @@ textarea.form-control {
 
     .navbar-links.active {
         display: flex;
-        flex-direction: column;
     }
 
     @media (max-width: 650px) {

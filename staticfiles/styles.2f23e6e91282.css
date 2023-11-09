@@ -95,7 +95,7 @@ nav ul li {
 .language-select-wrapper {
     list-style: none; /* Removes bullet points from li elements */
     margin: 0;
-    /* padding: .5rem 1rem; */
+    padding: .5rem 1rem; /* Adjust padding as needed */
     text-align: center;
 }
 
@@ -108,7 +108,7 @@ nav ul li {
 
 .hero {
     /* margin-top: 90px; */
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/index_hero_img.jpg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/index_hero_img.78bdf19a79ce.jpg");
     display: flex;
     flex-direction: column;
     height: 100vh;

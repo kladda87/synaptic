@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load i18n %}
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% block title %}<title>News</title>{% endblock %}
+    {% block title %}<title>{% trans 'News' %}</title>{% endblock %}
 </head>
 <body>
 {% block content %}

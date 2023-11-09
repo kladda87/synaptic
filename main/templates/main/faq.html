@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load i18n %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +13,7 @@
 
 {% block content %}
     <main class="faq-main">
-        <h2>FAQ</h2>
+        <h2>{% trans 'FAQ' %}</h2>
         {% for faq in faq_list %}
         <div class="faq">
             <h3 class="faq-question" onclick="toggleAnswer(this.nextElementSibling)">

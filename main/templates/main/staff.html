@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load i18n %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'styles.css' %}">
     <script src="{% static 'scripts.js' %}"></script>
-    {% block title %}<title>Synapsis - about our clinic</title>{% endblock %}
+    {% block title %}<title>{% trans 'Synapsis - our staff' %}</title>{% endblock %}
 </head>
 <body>
     {% block content %}
@@ -16,7 +18,7 @@
         {% for staff in staff_members %}
         <section class="our-team">
             <div class="team-person">
-                <h2 class="name">{{ staff.name }}</h2>
+                <h2 class="name">{{ staff.name }}</h2><p class="staff-title">{{ staff.title }}</p>
                 <p class="cv">{{ staff.description }}</p>
             </div>
             <img src="{{ staff.staff_image.url }}" alt="" class="profile-pic">

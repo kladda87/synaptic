@@ -17,6 +17,8 @@ import dj_database_url
 from decouple import config
 import logging
 import sys
+from django.utils.translation import gettext_lazy as _
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -44,6 +46,7 @@ else:
 # Application definition
 
 INSTALLED_APPS = [
+    'modeltranslation',
     'main.apps.MainConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -57,16 +60,17 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware', 
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',    
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-SECURE_SSL_REDIRECT = False
-SESSION_COOKIE_SECURE = False
-CSRF_COOKIE_SECURE = False
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 ROOT_URLCONF = 'synaptic.urls'
 
@@ -79,6 +83,7 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
+                'django.template.context_processors.i18n',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
@@ -135,12 +140,20 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Stockholm'
 
 USE_I18N = True
 
 USE_TZ = True
 
+LANGUAGES = [
+    ('en', _('English')),
+    ('sv', _('Swedish')),
+]
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),  # The folder where translations will be stored
+)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
@@ -163,8 +176,22 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # settings.py
 
-MEDIA_URL = '/media/'
+# MEDIA_URL = '/media/' # use when testing without AWS storage
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# AWS S3 Configuration
+AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
+AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')  # replace with your S3 bucket name
+AWS_S3_REGION_NAME = config('AWS_S3_REGION_NAME')  # replace with your S3 region, e.g., 'us-east-1'
+AWS_DEFAULT_ACL = None
+AWS_QUERYSTRING_AUTH = False
+
+# Media files (uploads)
+AWS_MEDIA_LOCATION = ''
+MEDIA_URL = f'https://{AWS_STORAGE_BUCKET_NAME}.s3.{AWS_S3_REGION_NAME}.amazonaws.com/'
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
 
 # Email settings - to be updated later:
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -193,4 +220,4 @@ LOGGING = {
 
 
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
