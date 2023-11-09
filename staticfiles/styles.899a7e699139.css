@@ -109,7 +109,7 @@ nav ul li {
 
 .hero {
     /* margin-top: 90px; */
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/index_hero_img.jpg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/index_hero_img.78bdf19a79ce.jpg");
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -231,6 +231,7 @@ section img {
 .profile-pic {
     max-width: 300px;
     margin-left: auto;
+
 }
 /* 
 .our-team {
@@ -490,10 +491,6 @@ textarea.form-control {
 
         .section-text {
             order: 2;
-        }
-        
-        .profile-pic {
-            margin: auto;
         }
 
         @media (max-width: 540px) {
