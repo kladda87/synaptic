@@ -15,8 +15,8 @@
 <main class="contact-main">
     <div class="contact-container">
         <div class="contact-title-info">
-            <h3>{% 'Contact Us' %}</h3>
-            <p>{% 'Fields marked with * are mandatory' %}</p>
+            <h3>{% trans 'Contact Us' %}</h3>
+            <p>{% trans 'Fields marked with * are mandatory' %}</p>
         </div>
         <form method="post" class="contact-form">
             {% csrf_token %}

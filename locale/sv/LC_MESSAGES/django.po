@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 09:27+0100\n"
+"POT-Creation-Date: 2023-11-09 16:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,21 @@ msgid ""
 "not they, too, are treated. That is why Synaptic does not only offer "
 "traditional 12-step treatment, relapse prevention, and motivational therapy, "
 "but also continuously adapts the treatment options to the individual client."
-msgstr "Synapsis är en modern beroendeklinik som erbjuder behadnlingshemsvistelse i Grekland. Vi är inspirerade av den massiva vetenskap kring beroendetillstånds komplexitet som kommit sedan 1970-talet och framåt och som visar att beroende är ett multifaktioriellt tillstånd som är intimt kopplat till psykiatriska och social faktorer på ett sätt som omöjliggör framgångsrik behandling om man inte beaktar hela människans livssituation. Beroendesjukdomen handlar om olika substansers potential att skapa sug och fysiska problem om man fastnar i själva beroendet, men också om brist på socialt sammanhang och känsla av mening i livet. Det är intimt sammankopplat med ett flertal psykiatriska och neuropsykiatriska tillstånd som kan omöjliggöra tillfrisknande om de inte också behandlas. Därför erbjuder Synapsis inte enbart sedvanlig tolvstegsbehandling, återfallsprevention och motiverande samtal utan individanpassar ständigt behandlingsutbudet för den enskilde klienten."
+msgstr ""
+"Synapsis är en modern beroendeklinik som erbjuder behadnlingshemsvistelse i "
+"Grekland. Vi är inspirerade av den massiva vetenskap kring "
+"beroendetillstånds komplexitet som kommit sedan 1970-talet och framåt och "
+"som visar att beroende är ett multifaktioriellt tillstånd som är intimt "
+"kopplat till psykiatriska och social faktorer på ett sätt som omöjliggör "
+"framgångsrik behandling om man inte beaktar hela människans livssituation. "
+"Beroendesjukdomen handlar om olika substansers potential att skapa sug och "
+"fysiska problem om man fastnar i själva beroendet, men också om brist på "
+"socialt sammanhang och känsla av mening i livet. Det är intimt sammankopplat "
+"med ett flertal psykiatriska och neuropsykiatriska tillstånd som kan "
+"omöjliggöra tillfrisknande om de inte också behandlas. Därför erbjuder "
+"Synapsis inte enbart sedvanlig tolvstegsbehandling, återfallsprevention och "
+"motiverande samtal utan individanpassar ständigt behandlingsutbudet för den "
+"enskilde klienten."
 
 #: .\main\templates\main\about.html:24
 msgid ""
@@ -55,7 +69,14 @@ msgid ""
 "psychiatric comorbidity, those who have exhausted other options and tried "
 "different clinics but still relapse after completed treatment and those who "
 "have a weak or non-existent social network."
-msgstr "Med tillgång till erfarna specialistläakrrer i beroendemedicin och psykiatri sju dagar i veckan och med terapeuter och sjuksköterskor utbildade i modern beroendevård utan vare sig pekpinnar eller moraliserande attityd har vi ett alternativ för de som har svårast att bli av med sitt beroende. De som har en utredd eller ännu inte känd psykiatrisk samsjuklighet. De som har provat olika behandlingshem med ständiga återfall efter avslutad behandling där set social nätverket är svagt eller saknas. "
+msgstr ""
+"Med tillgång till erfarna specialistläakrrer i beroendemedicin och psykiatri "
+"sju dagar i veckan och med terapeuter och sjuksköterskor utbildade i modern "
+"beroendevård utan vare sig pekpinnar eller moraliserande attityd har vi ett "
+"alternativ för de som har svårast att bli av med sitt beroende. De som har "
+"en utredd eller ännu inte känd psykiatrisk samsjuklighet. De som har provat "
+"olika behandlingshem med ständiga återfall efter avslutad behandling där set "
+"social nätverket är svagt eller saknas. "
 
 #: .\main\templates\main\about.html:26
 msgid ""
@@ -69,7 +90,17 @@ msgid ""
 "always the case at addiction rehab clinics in Sweden. We follow research and "
 "developments in the field very closely and adjust our range of offerings "
 "accordingly."
-msgstr "I och med att Synapsis har möjlighet att följa klienternas mående utifrån alla de aspekter som vidmakthåller beroendet kan vi också erbjuda det som är bäst för den enskilda patienten. Det kan innebära att vi under tiden på kliniken gör en neuropsykiatrisk utredning. Det kan också innebära att vi uppmärksammar att klienten är deprimerad eller lider av ett ångestsyndrom och behöver psykoterapi eller medicin för det för att kunna upprätthålla nykterhet och drogfrihet.  Vi erbjuder också den mest moderna farmakologiska behandlingen för själva beroendetilstånden vilket inte alltid ges på beroendekliniker i Sverige. Vi följer ständigt forskning och utveckling inom området och anpassar vårt utbud efter detta över tid. "
+msgstr ""
+"I och med att Synapsis har möjlighet att följa klienternas mående utifrån "
+"alla de aspekter som vidmakthåller beroendet kan vi också erbjuda det som är "
+"bäst för den enskilda patienten. Det kan innebära att vi under tiden på "
+"kliniken gör en neuropsykiatrisk utredning. Det kan också innebära att vi "
+"uppmärksammar att klienten är deprimerad eller lider av ett ångestsyndrom "
+"och behöver psykoterapi eller medicin för det för att kunna upprätthålla "
+"nykterhet och drogfrihet.  Vi erbjuder också den mest moderna farmakologiska "
+"behandlingen för själva beroendetilstånden vilket inte alltid ges på "
+"beroendekliniker i Sverige. Vi följer ständigt forskning och utveckling inom "
+"området och anpassar vårt utbud efter detta över tid. "
 
 #: .\main\templates\main\about.html:28
 msgid ""
@@ -87,7 +118,20 @@ msgid ""
 "outside of the public health system that can offer a full range of addictive "
 "disorder treatments and, as opposed to public health facilities, our clients "
 "can receive such help continuously throughout their stay in Greece."
-msgstr "Behandlingen av beroendetillstånd genomgår en enorm utveckling såväl utifrån psykoterapeutiska varianter men också rent farmakologiskt och för att kunna erbjuda bästa tänkbara vård måste forskning följas globalt så att klienterna får tillgång till den medicin som har bäst evidens för det särskilda problem som klienten har. Beroendetillstånd är aldrig ett enskilt syndrom utan beror på idvid och substans. Hur svårt det är att bli nykter och drogfri beror på vad man fastat i för substans. De mest beroendeframkallande substanserna som enligt vetenskap har störst negativ effekt på såväl individ som samhälle är alkohol och opiater. Vi är det idag enda svenska beroendekonceptet utanför regionens egna beroendekliniker som kan erbjuda en fullständig beroendemedicinsk behandling och till skillnad från regionens beroendevård kan våra klienter få sådan hjälp under hela sin vistelsetid på sjukhus i Grekland."
+msgstr ""
+"Behandlingen av beroendetillstånd genomgår en enorm utveckling såväl utifrån "
+"psykoterapeutiska varianter men också rent farmakologiskt och för att kunna "
+"erbjuda bästa tänkbara vård måste forskning följas globalt så att klienterna "
+"får tillgång till den medicin som har bäst evidens för det särskilda problem "
+"som klienten har. Beroendetillstånd är aldrig ett enskilt syndrom utan beror "
+"på idvid och substans. Hur svårt det är att bli nykter och drogfri beror på "
+"vad man fastat i för substans. De mest beroendeframkallande substanserna som "
+"enligt vetenskap har störst negativ effekt på såväl individ som samhälle är "
+"alkohol och opiater. Vi är det idag enda svenska beroendekonceptet utanför "
+"regionens egna beroendekliniker som kan erbjuda en fullständig "
+"beroendemedicinsk behandling och till skillnad från regionens beroendevård "
+"kan våra klienter få sådan hjälp under hela sin vistelsetid på sjukhus i "
+"Grekland."
 
 #: .\main\templates\main\about.html:30
 msgid ""
@@ -95,7 +139,10 @@ msgid ""
 "which was founded in 1971, offers patients world class care for psyciatric "
 "disorders. You can read more about the clinic and see photos of the "
 "faclities at"
-msgstr "Vår verksamhets drivs för närvarande i GALENE-klinikens lokaler. Kliniken, som grundades 1971, erbjuder patienter psykiatrisk vård i världsklass. Du kan läsa mer om kliniken och se bilder på"
+msgstr ""
+"Vår verksamhets drivs för närvarande i GALENE-klinikens lokaler. Kliniken, "
+"som grundades 1971, erbjuder patienter psykiatrisk vård i världsklass. Du "
+"kan läsa mer om kliniken och se bilder på"
 
 #: .\main\templates\main\about.html:30
 msgid "GALENE's website"
@@ -121,17 +168,25 @@ msgstr "Tillbaka till huvudsidan"
 msgid "Contact us"
 msgstr "Kontakta oss"
 
+#: .\main\templates\main\contact_us.html:18 .\templates\base.html:28
+msgid "Contact Us"
+msgstr "Kontakta oss"
+
+#: .\main\templates\main\contact_us.html:19
+msgid "Fields marked with * are mandatory"
+msgstr "Fält markerade med * är obligatoriska"
+
 #: .\main\templates\main\contact_us.html:26
 msgid "First Name*"
-msgstr "Tilltalsnamn"
+msgstr "Tilltalsnamn*"
 
 #: .\main\templates\main\contact_us.html:31
 msgid "Surname*"
-msgstr "Efternamn"
+msgstr "Efternamn*"
 
 #: .\main\templates\main\contact_us.html:37
 msgid "Email Address*"
-msgstr "Email"
+msgstr "Email*"
 
 #: .\main\templates\main\contact_us.html:42
 msgid "Phone Number"
@@ -139,7 +194,7 @@ msgstr "Telefonnummer"
 
 #: .\main\templates\main\contact_us.html:47
 msgid "Message*"
-msgstr "Meddelande"
+msgstr "Meddelande*"
 
 #: .\main\templates\main\contact_us.html:51
 msgid "Send"
@@ -228,18 +283,14 @@ msgstr ""
 msgid "Our staff"
 msgstr "Medarbetare"
 
-#: .\templates\base.html:28
-msgid "Contact Us"
-msgstr "Kontakta oss"
-
-#: .\templates\base.html:56
+#: .\templates\base.html:58
 msgid "Website Privacy Notice"
 msgstr "Integritetspolicy"
 
-#: .\templates\base.html:57
+#: .\templates\base.html:59
 msgid "Cookies"
 msgstr "Cookies"
 
-#: .\templates\base.html:58
+#: .\templates\base.html:60
 msgid "To the top"
 msgstr "Till toppen"
