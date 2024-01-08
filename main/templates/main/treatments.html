@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script src="{% static 'scripts.js' %}"></script>
+    {% block title %}<title>{% trans 'SYNAPTIC - about our clinic' %}</title>{% endblock %}
+</head>
+<body>
+{% block content %}
+<main>
+    <div class="about-main">
+        <div class="about-text">
+            <h2>{% trans 'Our treatments' %}</h2>
+            <p>{% trans "At Synaptic, the patient is always at the center of what we do and every treatment program is tailored to each individual's need. In addition to a traditional 12-step treatment we also offer relapse prevention, and motivational therapy, but also continuously adapts the treatment options to the individual client." %}</p>
+            <p>{% trans "Our staff has decades of experience between them. We have a combination of different occupations on campus to suit the needs of our patiens. Several of staff has both clinical and educational experience in both Sweden and Greece." %}</p>
+            <p>{% trans "Below you can read more about our daily schedule, accomodation, staff on campus and activities" %}</p>
+            <h3>{% trans 'Indicative daily schedule' %}</h3>
+            <p>{% trans 'Breakfast' %}</p>
+            <p>{% trans 'Doctor - rounds' %}</p>
+            <p>{% trans 'Patient meeting - Doctor' %}</p>
+            <p>{% trans 'Patient meeting - Psychologist/Occupational therapist' %}</p>
+            <p>{% trans 'Lunch' %}</p>
+            <p>{% trans 'Rest' %}</p>
+            <p>{% trans '12-step treatment (5 times / week)' %}</p>
+            <p>{% trans 'Yoga (3 times / week)' %}</p>
+            <p>{% trans 'Free time' %}</p>
+            <p>{% trans 'Dinner' %}</p>
+            <p>{% trans 'Sleep' %}</p>
+            <p>{% trans 'Weekends - excursion (either Saturday or Sunday)' %}</p>
+            
+            <h3>{% trans 'Accomodation and offer' %}</h3>
+            <p>{% trans 'Double room with ensuite (7 total)' %}</p>
+            <p>{% trans 'Single room with ensuite (2 total)' %}</p>
+            <p>{% trans 'Suite (2 total)' %}</p>
+            <br>
+            <p>{% trans 'Psychologist and occupational therapist included (English speaking)' %}</p>
+            <p>{% trans 'Pharmacological treatment for addiction included as a complement on individual basis. Continuous blood tests are taken to assert correct treatment.' %}</p>
+            <p>{% trans 'We have the possibility to evaluate and initiate pharmacological treatment of comorbid conditions.' %}</p>
+            <p>{% trans 'We also have possibility to evaluate and initiate treatment for neuropsychiatric conditions' %}</p>
+
+            <h3>{% trans 'Staff on location' %}</h3>
+            <p>{% trans 'Dr. Fotis Eleftheriadis (Psychiatrist, Addiction specialist; educated in Sweden)' %}</p>
+            <p>{% trans 'Dr. Giorgos Vyrinis (Psychiatrist, Lic. Psychotherapist; educated in Sweden)' %}</p>
+            <p>{% trans 'Dr. Christodoulakis Theo (Doctor Psychiatrist)' %}</p>
+            <p>{% trans 'Dr. Mantzioros Marios (Doctor Psychiatrist)' %}</p>
+            <p>{% trans '12-step treatment specialists' %}</p>
+            <p>{% trans "Yoga instructor part time 3 times per week, plus 1 day per weekend for the group that doesn't go on excursion." %}</p>
+            <p>{% trans 'Swedish speaking contact person' %}</p>
+            <p>{% trans 'Minibus and driver on campus' %}</p>
+            <p>{% trans 'Psychologist and occupational therapist (English speaking)' %}</p>
+            <p>{% trans 'Physiotherapist medical massage' %}</p>
+
+            <h3>{% trans 'Activities with occupational therapist' %}</h3>
+            <p>{% trans 'Art therapy' %}</p>
+            <p>{% trans 'Crafts' %}</p>
+            <p>{% trans 'Reading and discussion groups' %}</p>
+            <p>{% trans 'Film' %}</p>
+        </div>
+    </div>
+
+</main>
+{% endblock %}
+</body>
+</html>

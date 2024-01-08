@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 19:27+0100\n"
+"POT-Creation-Date: 2024-01-08 17:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\main\templates\main\about.html:13
+#: .\main\templates\main\about.html:13 .\main\templates\main\treatments.html:13
 msgid "SYNAPTIC - about our clinic"
 msgstr "SYNAPTIC - om vår klinik"
 
@@ -157,10 +157,14 @@ msgid "Thank you for contacting us!"
 msgstr "Tack för att du kontaktar oss!"
 
 #: .\main\templates\main\contact_success_page.html:17
+msgid "We have sent a confirmation mail to "
+msgstr "Vi har skickat ett bekräftelsemail till"
+
+#: .\main\templates\main\contact_success_page.html:18
 msgid "We'll get back to you shortly."
 msgstr "Vi återkommer till dig inom kort."
 
-#: .\main\templates\main\contact_success_page.html:18
+#: .\main\templates\main\contact_success_page.html:19
 msgid "Back to homepage"
 msgstr "Tillbaka till huvudsidan"
 
@@ -206,7 +210,7 @@ msgstr "FAQ"
 
 #: .\main\templates\main\index.html:13
 msgid "Welcome to Synaptic"
-msgstr "Välkommer till Synaptic"
+msgstr "Välkommen till Synaptic"
 
 #: .\main\templates\main\index.html:27
 msgid "About Us"
@@ -271,13 +275,222 @@ msgstr "FAQ-sida"
 msgid "for more information."
 msgstr "för mer information."
 
-#: .\main\templates\main\news.html:10 .\templates\base.html:25
+#: .\main\templates\main\news.html:10
 msgid "News"
 msgstr "Nyheter"
 
 #: .\main\templates\main\staff.html:13
 msgid "Synaptic - our staff"
 msgstr "Synaptic - våra medarbetare"
+
+#: .\main\templates\main\treatments.html:20
+msgid "Our treatments"
+msgstr "Våra behandlingar"
+
+#: .\main\templates\main\treatments.html:21
+msgid ""
+"At Synaptic, the patient is always at the center of what we do and every "
+"treatment program is tailored to each individual's need. In addition to a "
+"traditional 12-step treatment we also offer relapse prevention, and "
+"motivational therapy, but also continuously adapts the treatment options to "
+"the individual client."
+msgstr ""
+"På Synaptic är patienten alltid i centrum för allt vi gör och alla "
+"behandlingsprogram är skräddarsydda för varje enskild patient. Utöver ett "
+"traditionellt 12-stegsprogram erbjuder vi även prevention av återfall och "
+"motivationsterapi. Under behandlingens gång utvärderar vi och anpassar "
+"kontinuerligt utifrån varje patients behov och resultat. "
+
+#: .\main\templates\main\treatments.html:22
+msgid ""
+"Our staff has decades of experience between them. We have a combination of "
+"different occupations on campus to suit the needs of our patiens. Several of "
+"staff has both clinical and educational experience in both Sweden and Greece."
+msgstr ""
+"Vår personal har årtionden av erfarenhet mellan sig. Vi har en kombination "
+"av olika yrkelsroller på plats i kliniken för att säkra att vi kan möta "
+"varje patients behov. Flertalet av vår personal har både klinisk erfarenhet "
+"och utbildning från både Sverige och Grekland."
+
+#: .\main\templates\main\treatments.html:23
+msgid ""
+"Below you can read more about our daily schedule, accomodation, staff on "
+"campus and activities"
+msgstr ""
+"Nedan kan du läs med om vårt dagliga schema, rum, personal på plats och "
+"aktiviteter."
+
+#: .\main\templates\main\treatments.html:24
+msgid "Indicative daily schedule"
+msgstr "Indikativt daglit schema"
+
+#: .\main\templates\main\treatments.html:25
+msgid "Breakfast"
+msgstr "Frukost"
+
+#: .\main\templates\main\treatments.html:26
+msgid "Doctor - rounds"
+msgstr "Läkare besök - rond"
+
+#: .\main\templates\main\treatments.html:27
+msgid "Patient meeting - Doctor"
+msgstr "Patientsamtal - Läkare"
+
+#: .\main\templates\main\treatments.html:28
+msgid "Patient meeting - Psychologist/Occupational therapist"
+msgstr "Patientsamtal - Psykolog eller Arbetsterapeut"
+
+#: .\main\templates\main\treatments.html:29
+msgid "Lunch"
+msgstr "Lunch"
+
+#: .\main\templates\main\treatments.html:30
+msgid "Rest"
+msgstr "Vila"
+
+#: .\main\templates\main\treatments.html:31
+msgid "12-step treatment (5 times / week)"
+msgstr "12-stegsbehandling (5 ggr / vecka)"
+
+#: .\main\templates\main\treatments.html:32
+msgid "Yoga (3 times / week)"
+msgstr "Yoga (3 ggr / vecka)"
+
+#: .\main\templates\main\treatments.html:33
+msgid "Free time"
+msgstr "Patientens egentid"
+
+#: .\main\templates\main\treatments.html:34
+msgid "Dinner"
+msgstr "Middag"
+
+#: .\main\templates\main\treatments.html:35
+msgid "Sleep"
+msgstr "Sovtid"
+
+#: .\main\templates\main\treatments.html:36
+msgid "Weekends - excursion (either Saturday or Sunday)"
+msgstr "Helgerna . utflykt (antingen lördag eller söndag)"
+
+#: .\main\templates\main\treatments.html:38
+msgid "Accomodation and offer"
+msgstr "Rum och behandling"
+
+#: .\main\templates\main\treatments.html:39
+msgid "Double room with ensuite (7 total)"
+msgstr "Dubbelrum med eget badrum (7 totalt)"
+
+#: .\main\templates\main\treatments.html:40
+msgid "Single room with ensuite (2 total)"
+msgstr "Singelrum med eget badrum (2 totalt)"
+
+#: .\main\templates\main\treatments.html:41
+msgid "Suite (2 total)"
+msgstr "Svit (2 totalt)"
+
+#: .\main\templates\main\treatments.html:43
+msgid "Psychologist and occupational therapist included (English speaking)"
+msgstr "Psykolog och arbetsterapeut (på engelska)"
+
+#: .\main\templates\main\treatments.html:44
+msgid ""
+"Pharmacological treatment for addiction included as a complement on "
+"individual basis. Continuous blood tests are taken to assert correct "
+"treatment."
+msgstr ""
+"Farmakologisk behandling för beroendesjukdomar. Regelbundna provtagningar "
+"för att säkerställa korrekt behandling."
+
+#: .\main\templates\main\treatments.html:45
+msgid ""
+"We have the possibility to evaluate and initiate pharmacological treatment "
+"of comorbid conditions."
+msgstr ""
+"Vi har också möjlighet till utredning av comorbida tillstånd och i "
+"förekommande fall initiering av farmakaterapi."
+
+#: .\main\templates\main\treatments.html:46
+msgid ""
+"We also have possibility to evaluate and initiate treatment for "
+"neuropsychiatric conditions"
+msgstr ""
+"Det finns även möjlighet till neuropsykiatriska utredningar samt insättning "
+"av farmaka vid behov."
+
+#: .\main\templates\main\treatments.html:48
+msgid "Staff on location"
+msgstr "Personal på plats"
+
+#: .\main\templates\main\treatments.html:49
+msgid ""
+"Dr. Fotis Eleftheriadis (Psychiatrist, Addiction specialist; educated in "
+"Sweden)"
+msgstr ""
+"Dr Fotis Eleftheriadis (Psykiater, Beroendespecialist; utbildad i Sverige)"
+
+#: .\main\templates\main\treatments.html:50
+msgid ""
+"Dr. Giorgos Vyrinis (Psychiatrist, Lic. Psychotherapist; educated in Sweden)"
+msgstr "Dr Giorgos Vyrinis (Psykiater, Leg Psykoterapeut; utbildad i Sverige)"
+
+#: .\main\templates\main\treatments.html:51
+msgid "Dr. Christodoulakis Theo (Doctor Psychiatrist)"
+msgstr "Dr. Christodoulakis Theo (Läkare Psykiater)"
+
+#: .\main\templates\main\treatments.html:52
+msgid "Dr. Mantzioros Marios (Doctor Psychiatrist)"
+msgstr "Dr. Mantzioros Marios (Läkare Psykiater)"
+
+#: .\main\templates\main\treatments.html:53
+msgid "12-step treatment specialists"
+msgstr "Specialister på 12-stegsbehandling"
+
+#: .\main\templates\main\treatments.html:54
+msgid ""
+"Yoga instructor part time 3 times per week, plus 1 day per weekend for the "
+"group that doesn't go on excursion."
+msgstr ""
+"Yogainstruktör deltid 3 gånger per vecka plus 1 helgdag för den grupper som "
+"inte följer på utflykt"
+
+#: .\main\templates\main\treatments.html:55
+msgid "Swedish speaking contact person"
+msgstr "Svensktalande kontaktperson"
+
+#: .\main\templates\main\treatments.html:56
+msgid "Minibus and driver on campus"
+msgstr "Minibuss och chauförr"
+
+#: .\main\templates\main\treatments.html:57
+msgid "Psychologist and occupational therapist (English speaking)"
+msgstr "Psykolog och arbetsterapeut (på engelska)"
+
+#: .\main\templates\main\treatments.html:58
+msgid "Physiotherapist medical massage"
+msgstr "Fysioterapeut medicinsk massage"
+
+#: .\main\templates\main\treatments.html:60
+msgid "Activities with occupational therapist"
+msgstr "Fysioterapeut medicinsk massage"
+
+#: .\main\templates\main\treatments.html:61
+msgid "Art therapy"
+msgstr "Konstterapi - ART THERAPY"
+
+#: .\main\templates\main\treatments.html:62
+msgid "Crafts"
+msgstr "Hantverk"
+
+#: .\main\templates\main\treatments.html:63
+msgid "Reading and discussion groups"
+msgstr "Diskussiongrupp - Läsningsgrupp"
+
+#: .\main\templates\main\treatments.html:64
+msgid "Film"
+msgstr "Filmvisningsgrupp"
+
+msgid "Treatments"
+msgstr "Behandlingar"
 
 #: .\templates\base.html:26
 msgid "Our staff"

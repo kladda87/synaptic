@@ -1,0 +1,33 @@
+Push till Heroku
+    Check inför push:
+    - Settings:
+        * SSL / cookie / session ska alla sättas = True
+
+    - .env:
+        * Debug = False
+
+    python manage.py collectstatic
+    [pip freeze > requirements.txt] <-- kommer nog behövas sällan
+
+
+    1. Git
+        A. gid add .
+        B. git commit -m "xx"
+        C. git push origin main
+    2. Heroku
+        A. heroku git:remote -a your-heroku-app-name
+        B. git push heroku main
+        [C. heroku run python manage.py migrate] <-- Vid DB ändringar
+
+Översättning:
+    Vid ändringar i översättning:
+        Edit the .po file with your new translations.
+        Run py manage.py compilemessages to compile these into .mo files.
+        If you add new translatable strings to your code:
+
+    Ny text för översättning:
+        Run py manage.py makemessages -l sv -i venv to update the .po files with new strings (they will appear with empty msgstr entries).
+        Update the .po files with translations for these new strings.
+        Then run py manage.py compilemessages again.
+    
+

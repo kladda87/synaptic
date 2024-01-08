@@ -4,6 +4,9 @@ from .forms import ContactForm
 from django.core.mail import send_mail
 from django.http import HttpResponseServerError
 import logging
+from django.conf import settings
+from django.contrib import messages
+
 
 logger = logging.getLogger(__name__)
 
@@ -37,20 +40,29 @@ def index(request):
 def about(request):
     return render(request, 'main/about.html')
 
+def treatments(request):
+    return render(request, 'main/treatments.html')
+
 def contact_us(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
-            
-            # Send emil to be updated later:
-            # subject = "New Contact Message from {}".format(form.cleaned_data.get('first_name'))
-            # message = form.cleaned_data.get('message')
-            # email_from = form.cleaned_data.get('email_address')
-            # recipient_list = ['gleiflandberntsson@gmail.com']  # Replace with your email
-            # send_mail(subject, message, email_from, recipient_list)
 
-            return redirect('contact_success_page')
+            # Email data
+            user_email = form.cleaned_data.get('email_address')
+            subject = "New Contact Message from {}".format(form.cleaned_data.get('first_name'))
+            message = form.cleaned_data.get('message')
+            admin_email = settings.EMAIL_HOST_USER  # Email defined in settings.py
+
+            # Send email to admin
+            send_mail(subject, message, admin_email, [admin_email])
+
+            # Send confirmation email to user
+            send_mail("Thank you for contacting us", "We have received your message and will get back to you soon.", admin_email, [user_email])
+            user_email = form.cleaned_data.get('email_address')
+
+            return render(request, 'main/contact_success_page.html', {'user_email': user_email})
     else:
         form = ContactForm()
 
