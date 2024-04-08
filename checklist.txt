@@ -11,11 +11,11 @@ Push till Heroku
 
 
     1. Git
-        A. gid add .
+        A. git add .
         B. git commit -m "xx"
         C. git push origin main
     2. Heroku
-        A. heroku git:remote -a your-heroku-app-name
+        A. heroku login
         B. git push heroku main
         [C. heroku run python manage.py migrate] <-- Vid DB ändringar
 
@@ -23,7 +23,7 @@ Push till Heroku
     Vid ändringar i översättning:
         Edit the .po file with your new translations.
         Run py manage.py compilemessages to compile these into .mo files.
-        If you add new translatable strings to your code:
+        
 
     Ny text för översättning:
         Run py manage.py makemessages -l sv -i venv to update the .po files with new strings (they will appear with empty msgstr entries).

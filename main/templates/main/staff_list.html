@@ -15,15 +15,17 @@
 <body>
     {% block content %}
     <main>
-        {% for staff in staff_members %}
         <section class="our-team">
-            <div class="team-person">
-                <h2 class="name">{{ staff.name }}</h2><p class="staff-title">{{ staff.title }}</p>
-                <p class="cv">{{ staff.description }}</p>
-            </div>
-            <img src="{{ staff.staff_image.url }}" alt="" class="profile-pic">
+            {% for staff in staff_members %}
+            <a href="{% url 'staff_detail' staff.id %}">
+                <div class="team-person">
+                    <img src="{{ staff.staff_image.url }}" alt="" class="small-profile-pic">    
+                    <h2 class="name">{{ staff.name }}</h2>
+                    <p class="staff-title">{{ staff.title }}</p>
+                </div>
+            </a>
+            {% endfor %}
         </section>
-        {% endfor %}
     </main>
     {% endblock %}
     

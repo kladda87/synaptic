@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script src="{% static 'scripts.js' %}"></script>
+    {% block title %}<title>{% trans 'Synaptic - our staff' %}</title>{% endblock %}
+</head>
+<body>
+    {% block content %}
+    <main>
+        <div class="about-main">
+            <div class="about-text">
+                <div class="team-person-detail">
+                    <h2 class="name">{{ staff_member.name }}</h2>
+                    <p class="staff-title">{{ staff_member.title }}</p>
+                    <p class="cv">{{ staff_member.description|linebreaksbr}}</p>
+                </div>
+            </div>
+            <div class="about-side-2">
+                <img src="{{ staff_member.staff_image.url }}" alt="" class="large-profile-pic">
+            </div>
+        </div>
+    </main>
+    {% endblock %}
+    
+</body>
+</html>

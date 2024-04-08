@@ -111,7 +111,7 @@ nav ul li {
 
 .hero {
     /* margin-top: 90px; */
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/index_hero_img.jpg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/index_hero_img.78bdf19a79ce.jpg");
     display: flex;
     flex-direction: column;
     height: 100vh;

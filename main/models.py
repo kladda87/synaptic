@@ -13,7 +13,7 @@ class FAQ(models.Model):
 class Staff(models.Model):
     name = models.CharField(max_length=100, default='Name')
     title = models.CharField(max_length=100, default='Title')
-    description = models.TextField(max_length=2000, default='Description')
+    description = models.TextField(max_length=2500, default='Description')
     staff_image = models.ImageField(upload_to='staff_images/', null=True, blank=True)
 
 class Contact(models.Model):

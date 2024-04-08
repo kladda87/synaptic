@@ -15,20 +15,32 @@
 <body>
     {% block content %}
     <main>
+        <div class="image-overlay-container">
+            <img src="{% static 'images/venue.jpg' %}" alt="" class="about-main-img">
+            <h2 class="overlay-text">{% trans 'About us' %}</h2>
+        </div>
+
         <div class="about-main">
-            <img src="{% static 'images/venue.jpg' %}" alt="">
             <div class="about-text">
-                <h2>{% trans 'About us' %}</h2>
-                <p>{% trans 'Synaptic is a newly started modern addiction rehab center that offers in-clinic treatment in Greece. It is a colloboration between psychiatrists from Sweden and Greece with decades of experience between them. We are inspired by the massive scientific insights that have emerged since the 1970’s into the complexities of addictive disorder. Evidence shows that addiction is a multifactorial condition, intimately linked to psychiatric and social factors in a manner that makes successful treatment impossible unless the patient’s entire life situation is taken into consideration. Addictive disorder is connected to certain substances’ potential to cause craving and physical problems for persons who are addicted, but also to a lack of social context and meaning in life. It is closely intertwined with several psychiatric and neuropsychiatric conditions that can obstruct recovery if not they, too, are treated. That is why Synaptic does not only offer traditional 12-step treatment, relapse prevention, and motivational therapy, but also continuously adapts the treatment options to the individual client.' %}</p>
+                
+                <h3>{% trans 'Welcome to Synaptic MindCare – A New Perspective on Mental Health and Recovery' %}</h3>
 
-                <p>{% trans 'We have access to experienced doctors, specializing in addiction medicine and psychiatry, seven days a week, as well as therapists and nurses trained in modern addiction care. Our approach is not to judge or moralize, instead we want to offer an alternative for those who face the greatest challenges in recovering from addiction, i.e. those who have a known or undiagnosed psychiatric comorbidity, those who have exhausted other options and tried different clinics but still relapse after completed treatment and those who have a weak or non-existent social network.' %}</p>
+                <p>{% trans 'Located in the picturesque landscape of Greece, Synaptic MindCare is redefining psychiatric care by introducing a holistic model that encompasses a broad spectrum of psychiatric conditions, including treatments for treatment-resistant depression, anxiety, geriatric psychiatry, and integrated substance use care. By acknowledging the intricate link between mental health conditions and the individual and social factors influencing them, we aim to provide care that comprehensively addresses the whole person.' %}</p>
 
-                <p>{% trans 'Synaptic closely monitors the clients’ wellbeing through all the various aspects that perpetuate the addiction, we can also offer treatment optimized for the individual patient. This may entail making a neuropsychiatric assessment at the clinic. It could also mean determining if a patient suffers from depression or anxiety disorder and requires psychotherapy or medication to treat these in order to maintain sobriety. We also offer the most up-to-date treatments for the addictive disorder itself, which is not always the case at addiction rehab clinics in Sweden. We follow research and developments in the field very closely and adjust our range of offerings accordingly.' %}</p>
+                <p>{% trans 'Our approach is grounded in the belief that each individual is unique, leading us to offer flexible and personalized treatment plans. Our team, composed of experts with a wide range of experience in psychiatric conditions, is committed to delivering compassionate and effective care. Our medical professionals, including doctors, psychologists, and nurses, are all trained in contemporary psychiatric and substance use care therapies, ensuring a non-judgmental and empathetic treatment environment.' %}</p>
+                <div class="quote">{% trans "We are equipped to manage both general and neuropsychiatric conditions, understanding the complexity of these issues and their mutual impact." %}</div>
+                <p>{% trans "We are equipped to manage both general and neuropsychiatric conditions, understanding the complexity of these issues and their mutual impact. This enables us to formulate holistic treatment plans that target not just the symptoms but also the root causes, whether it's anxiety, depression, ADHD, or other psychiatric diagnoses. Additionally, our substance use treatment is seamlessly integrated into our overall care, customized to meet the specific needs of each individual without being the focal point of our services." %}</p>
 
-                <p>{% trans 'Treatment of addictive disorders is currently going through a massive transformation, both in regard to psychotherapy and pharmacological options. In order to offer the very best, state-of-the -art treatment, Synaptic keeps a close tab on global research, so that clients have access to the specific treatment option for which there is most evidence for their particular problem. Addictive disorder is never a singular syndrome, rather it is a product of both the individual and the substance involved. How difficult it is to reach and maintain sobriety depends on which substance is being abused. The most addictive substances, which according to scientific evidence have the most negative effects on individuals and society, are opioids and alcohol. Synaptic is the only Swedish addiction rehab concept outside of the public health system that can offer a full range of addictive disorder treatments and, as opposed to public health facilities, our clients can receive such help continuously throughout their stay in Greece.' %}</p>
-
-                <p>{% trans 'We are currently hosted within the GALENE clinic facilities. The clinic, which was founded in 1971, offers patients world class care for psyciatric disorders. You can read more about the clinic and see photos of the faclities at'%} <a href="https://galene.gr/">{% trans "GALENE's website" %}</a>.
-                </p>
+                <p>{% trans 'As the currently sole Swedish concept for substance use treatment outside of the regional clinics, Synaptic MindCare distinguishes itself by providing comprehensive psychiatric care, including access to innovative treatments like ketamine therapy for treatment-resistant depression. This capability is enhanced by our partnership with the GALENE clinic, established in 1971 and renowned for its world-class psychiatric services.' %}</p>
+                <div class="quote">{% trans "Committed to staying at the forefront of research and advancements in our field, we ensure our clients receive the most effective, evidence-based treatments available." %}</div>
+                <p>{% trans 'Committed to staying at the forefront of research and advancements in our field, we ensure our clients receive the most effective, evidence-based treatments available. Our mission is to guide each individual towards not just recovery, but a richer, more meaningful life.'%}</p>
+                
+                <p>{% trans 'Synaptic MindCare is here to accompany you on your journey towards recovery and self-discovery. We recognize that improving mental health is a deeply personal journey, fraught with challenges but also filled with opportunities. Our dedicated team is ready to provide the support and expertise needed at every step of your journey. For a closer look at the environment we offer our patients, you are welcome to read more about our collaboration with the GALENE clinic and view pictures on their website.' %}</p>
+                <p><a href="https://galene.gr/">{% trans "GALENE's website" %}</a>.</p>
+            </div>
+            <div class="about-side">
+                <img src="{% static 'images/therapy-session.jpg' %}" alt="" class="side-img">
+                <img src="{% static 'images/sunflower.jpg' %}" alt="" class="side-img">
             </div>
         </div>
     </main>

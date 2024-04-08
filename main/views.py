@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import Staff, News, FAQ 
 from .forms import ContactForm
 from django.core.mail import send_mail
@@ -17,6 +17,14 @@ def staff(request):
     except Exception as e:
         logger.error(f"Error in staff view: {str(e)}")
         return HttpResponseServerError("Internal Server Error")
+    
+def staff_list(request):
+    staff_members = Staff.objects.all().order_by('name')  # Alphabetically order the staff members
+    return render(request, 'main/staff_list.html', {'staff_members': staff_members})
+
+def staff_detail(request, staff_id):
+    staff_member = get_object_or_404(Staff, id=staff_id)  # Get the specific staff member or 404
+    return render(request, 'main/staff_detail.html', {'staff_member': staff_member})
 
 def faq(request):
     try:

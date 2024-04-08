@@ -7,12 +7,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-size: 1.25rem;
+    font-size: 1rem;
+    font-family: sans-serif;
 }
 
 main {
     margin-top: 90px;
     flex: 1;
+    margin-left: auto;
 }
 
 .navbar {
@@ -212,31 +214,248 @@ section img {
     text-decoration: underline; /* Underline when hovered */
 }
 
+/* ********* Generic content for detailed pages ******** */
+
+.image-overlay-container {
+    position: relative;
+    display: inline-block; /* Or 'block', depending on your layout needs */
+    width: 100%;
+}
+
+.about-main-img {
+    width: 100%; /* Ensure the image covers the container's width */
+    display: block; /* Remove any default margin/padding */
+    max-height: 60vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed for exact positioning */
+    left: 20px; /* Adjust as needed for exact positioning */
+    color: white; /* Ensures the text stands out; adjust based on your image */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 5px; /* Optional: Adds some padding around the text */
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
 
 /* ********* About us ******** */
 
 .about-main {
-    display: block;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    /* justify-content: space-between; */
     border-bottom: none;
-    margin-left: 60px;
+    margin-left: 10%;
     margin-right: 60px;
 }
-.about-main img {
-    width: 100%;
-    /* max-height: 60vh; */
-    overflow: hidden;
+
+.about-text {
+    max-width: 550px;
 }
+
+.quote {
+    font-weight: bold;
+    margin: 20px 0; 
+    padding: 10px 20px; 
+    /* border-top: 2px solid #000;  */
+    /* border-bottom: 2px solid #000;  */
+    border-left: 2px solid #000; 
+    /* background-color: #f9f9f9;  */
+    position: relative; 
+    margin-left: 10px; 
+    margin-right: 10px;
+    max-width: 400px;
+}
+
+.about-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    width: 100%;
+    flex-grow: 1;
+    gap: 500px;
+}
+
+.side-img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    
+    
+}
+
+.side-img-round {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    /* position: relative;
+    top: -200px; */
+    
+}
+
+/* ********* Treatments ******** */
+
+.treatment-li {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin: 20px 0; 
+    padding: 0px 20px; 
+    border-left: 2px solid #000; 
+    /* border-right: 2px solid #000;  */
+    position: relative; 
+    margin-left: 10px; 
+    margin-right: 10px;
+    max-width: 500px;
+    height: 90px;
+}
+
+.doctor-site {
+    background-color: #f9f9f9; /* Light background to make the item pop */
+    border: 1px solid #ccc; /* Subtle border for definition */
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1); /* Soft shadow for a "pop-out" effect */
+    padding: 15px; /* Padding inside each item for content spacing */
+    border-radius: 5px; /* Slightly rounded corners for a softer look */
+}
+
+.staff-on-site {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Creates 2 columns */
+    grid-gap: 20px; /* Adds space between the grid items */
+    padding: 20px; /* Padding around the entire grid for spacing */
+}
+
+.staff-site-member {
+    background-color: #f9f9f9; /* Light background to make the item pop */
+    border: 1px solid #ccc; /* Subtle border for definition */
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1); /* Soft shadow for a "pop-out" effect */
+    padding: 15px; /* Padding inside each item for content spacing */
+    border-radius: 5px; /* Slightly rounded corners for a softer look */
+}
+
+.schedule-timeline {
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transform: translateX(-50%); /* Ensures the line is perfectly centered */
+    left: 20px;
+    width: 4px;
+    background-color: #ddd; /* Line color */
+}
+
+.timeline li {
+    position: relative;
+    padding: 20px 0;
+    padding-left: 60px;
+}
+
+.timeline li::before {
+    content: '';
+    position: absolute;
+    left: 15px; /* Position the bullet to the left of the text, adjust as needed */
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #555; /* Dot color */
+    top: 50%;
+    transform: translateY(-50%); /* Center the bullet vertically */
+}
+
+
 /* ********* Our staff ******** */
 
-.profile-pic {
-    max-width: 300px;
-    margin-left: auto;
-}
-/* 
 .our-team {
-    margin-bottom: 30px; or any value you prefer
-} */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 120px;
+    text-decoration: none;
+    color: inherit;
+}
 
+.our-team a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.team-person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.name {
+    color: green; /* Sets the color of the name to green */
+    text-align: center; /* Centers the name text horizontally */
+    margin: 0; /* Removes default margin from the h2 tag if necessary */
+    width: 100%; /* Ensures the name occupies the full width available */
+}
+
+.staff-title {
+    text-align: center; /* Centers the staff title text horizontally */
+    color: #000; /* Sets the color of the staff title to black or any desired color */
+    margin: 0; /* Adjust or add to manage spacing */
+}
+
+.small-profile-pic {
+    width: 40%;
+    border-radius: 50%;
+    height: 40%;
+    display: block;
+    object-fit: cover;
+}
+
+.team-person-detail {
+    margin-top: 20px;
+}
+
+.about-side-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 60px;
+    width: 100%;
+    flex-grow: 1;
+    /* gap: 500px; */
+}
+
+.large-profile-pic {
+    display: block;
+    width: 300px; /* Set width and height to ensure a circle */
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the area, cropping as necessary */
+    margin-left: 20px; /* Optional: Adds some space between the text and the image */
+}
 
 /* ********* News ******** */
 

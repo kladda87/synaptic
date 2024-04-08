@@ -15,53 +15,55 @@
 <body>
 {% block content %}
 <main>
+    <div class="image-overlay-container">
+        <img src="{% static 'images/freedom.jpg' %}" alt="" class="about-main-img">
+        <h2 class="overlay-text">{% trans 'Our treatments' %}</h2>
+    </div>
     <div class="about-main">
         <div class="about-text">
-            <h2>{% trans 'Our treatments' %}</h2>
-            <p>{% trans "At Synaptic, the patient is always at the center of what we do and every treatment program is tailored to each individual's need. In addition to a traditional 12-step treatment we also offer relapse prevention, and motivational therapy, but also continuously adapts the treatment options to the individual client." %}</p>
-            <p>{% trans "Our staff has decades of experience between them. We have a combination of different occupations on campus to suit the needs of our patiens. Several of staff has both clinical and educational experience in both Sweden and Greece." %}</p>
-            <p>{% trans "Below you can read more about our daily schedule, accomodation, staff on campus and activities" %}</p>
-            <h3>{% trans 'Indicative daily schedule' %}</h3>
-            <p>{% trans 'Breakfast' %}</p>
-            <p>{% trans 'Doctor - rounds' %}</p>
-            <p>{% trans 'Patient meeting - Doctor' %}</p>
-            <p>{% trans 'Patient meeting - Psychologist/Occupational therapist' %}</p>
-            <p>{% trans 'Lunch' %}</p>
-            <p>{% trans 'Rest' %}</p>
-            <p>{% trans '12-step treatment (5 times / week)' %}</p>
-            <p>{% trans 'Yoga (3 times / week)' %}</p>
-            <p>{% trans 'Free time' %}</p>
-            <p>{% trans 'Dinner' %}</p>
-            <p>{% trans 'Sleep' %}</p>
-            <p>{% trans 'Weekends - excursion (either Saturday or Sunday)' %}</p>
+            <p>{% trans "At Synaptic Mindcare, we offer tailored treatment programs that span a wide spectrum of psychiatric diagnoses, including depression, anxiety, neuro-psychiatric disorders, geriatric psychiatry and addictive disorders." %}</p>
+            <p>{% trans "Our treatments include evidence-based methods that are always adapted to each patient’s specific and unique needs and development. Our team has a rich and broad competence and long experience, with backgrounds in both Sweden and Greece. By integrating different fields of expertise, we ensure that each patient receives thorough and empathetic care on their journey to recovery." %}</p>
             
-            <h3>{% trans 'Accomodation and offer' %}</h3>
-            <p>{% trans 'Double room with ensuite (7 total)' %}</p>
-            <p>{% trans 'Single room with ensuite (2 total)' %}</p>
-            <p>{% trans 'Suite (2 total)' %}</p>
-            <br>
-            <p>{% trans 'Psychologist and occupational therapist included (English speaking)' %}</p>
-            <p>{% trans 'Pharmacological treatment for addiction included as a complement on individual basis. Continuous blood tests are taken to assert correct treatment.' %}</p>
-            <p>{% trans 'We have the possibility to evaluate and initiate pharmacological treatment of comorbid conditions.' %}</p>
-            <p>{% trans 'We also have possibility to evaluate and initiate treatment for neuropsychiatric conditions' %}</p>
+            <h3>{% trans 'Treatments' %}</h3>
+            <div class="treatment-li"><p>{% trans 'Pharmacological treatment for difficult-to-treat depression, anxiety, neuro-psychiatric disorders, geriatric psychiatry and addictive disorders.' %}</p></div>
+            <div class="treatment-li"><p>{% trans 'Oral pharmacological treatment for difficult-to-treat depression, ketamine IV or ECT.' %}</p></div>
+            <div class="treatment-li">{% trans 'Withdrawal treatment for various addictive disorders.' %}</div>
+            <div class="treatment-li">{% trans 'Regular testing to ensure patient safety.' %}</div>
+            <div class="treatment-li">{% trans 'Assessment of co-morbidity with other psychiatric disorders and initiation of pharmacological treatment.' %}</div>
+            <div class="treatment-li">{% trans 'Neuro-psychiatric assessment for differential diagnostic purposes and commencement of medication if needed.' %}</div>
+            
+            <h3>{% trans 'Team of doctors' %}</h3>
+            <p>{% trans 'Currently we have 4 psychiatrists on site (two of these are Swedish citizens and trained in Sweden). In additions to this, two psychiatrists are available for digital sessions. These two will sometimes also be present on site.' %}</p>
 
-            <h3>{% trans 'Staff on location' %}</h3>
-            <p>{% trans 'Dr. Fotis Eleftheriadis (Psychiatrist, Addiction specialist; educated in Sweden)' %}</p>
-            <p>{% trans 'Dr. Giorgos Vyrinis (Psychiatrist, Lic. Psychotherapist; educated in Sweden)' %}</p>
-            <p>{% trans 'Dr. Christodoulakis Theo (Doctor Psychiatrist)' %}</p>
-            <p>{% trans 'Dr. Mantzioros Marios (Doctor Psychiatrist)' %}</p>
-            <p>{% trans '12-step treatment specialists' %}</p>
-            <p>{% trans "Yoga instructor part time 3 times per week, plus 1 day per weekend for the group that doesn't go on excursion." %}</p>
-            <p>{% trans 'Swedish speaking contact person' %}</p>
-            <p>{% trans 'Minibus and driver on campus' %}</p>
-            <p>{% trans 'Psychologist and occupational therapist (English speaking)' %}</p>
-            <p>{% trans 'Physiotherapist medical massage' %}</p>
+            <h3>{% trans 'Other staff on site' %}</h3>
+            <div class="staff-on-site">
+                <div class="staff-site-member"><p>{% trans 'Therapist with specialist training in the 12-step program.' %}</p></div>
+                <div class="staff-site-member"><p>{% trans 'Psychologist and occupational therapist (English speaking, recruitment of Swedish speaking staff is ongoing).' %}</p></div>
+                <div class="staff-site-member"><p>{% trans 'Yoga instructor (part-time 3 times a week plus weekends for those patients who are not participating in outings).' %}</p></div>
+                <div class="staff-site-member"><p>{% trans 'Contact person (Swedish speaking).' %}</p></div>
+                <div class="staff-site-member"><p>{% trans 'Minibus with driver.' %}</p></div>
+                <div class="staff-site-member"><p>{% trans 'Physiotherapist for medicinal massage.' %}</p></div>
+                <div class="staff-site-member"><p>{% trans 'Art therapy.' %}</p></div>
+                <div class="staff-site-member"><p>{% trans 'Crafts.' %}</p></div>
+                <div class="staff-site-member"><p>{% trans 'Discussion and reading groups.' %}</p></div>
+                <div class="staff-site-member"><p>{% trans 'Film group.' %}</p></div>
+            </div>
 
-            <h3>{% trans 'Activities with occupational therapist' %}</h3>
-            <p>{% trans 'Art therapy' %}</p>
-            <p>{% trans 'Crafts' %}</p>
-            <p>{% trans 'Reading and discussion groups' %}</p>
-            <p>{% trans 'Film' %}</p>
+            <div class="schedule-timeline">
+                <h3>{% trans 'Daily schedule' %}</h3>
+                <ul class="timeline">
+                    <li><span>{% trans 'Breakfast.' %}</span></li>
+                    <li><span>{% trans 'Medical round.' %}</span></li>
+                    <li><span>{% trans 'Visit to doctor.' %}</span></li>
+                    <li><span>{% trans 'Talk with psychologist/occupational therapist.' %}</span></li>
+                    <li><span>{% trans 'Lunch.' %}</span></li>
+                    <li><span>{% trans 'Rest.' %}</span></li>
+                    <li><span>{% trans '12-step treatment (5 times per week).' %}</span></li>
+                    <li><span>{% trans 'Yoga (3 times per week).' %}</span></li>
+                    <li><span>{% trans 'Weekend activities include excursions, always accompanied by staff. These excursions are of a therapeutic and/or cultural nature.' %}</span></li>
+                </ul>
+            </div>
+        
         </div>
     </div>
 

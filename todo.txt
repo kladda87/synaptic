@@ -1,5 +1,6 @@
 - Hero image croppas snyggare vid resizing, vill ha "mitten" av bilden vid mobile
 - Centrera section content i section (ngn grid inställning) så sektionerna separeras ut något
+- Byt ut typsnitt mot något som ser bättre ut
 
 - Mobile/responsive
     * FAQ
@@ -14,3 +15,21 @@
     * dela upp på cards och single story
     * Single story layout som contact form card ish
     
+- Staff
+    * En sida med cards (namn + titel + liten bild + länk till detail), alfabetisk ordning (efternamn?)
+    * En detailed sida per anställd 
+
+- About us 
+    * Snygga till: 700-750p wide text, lägga till bild
+    * fetmarkerade citat med typ annan färg + top / bottom linjer
+        + "We are equipped to manage both general and neuropsychiatric conditions, understanding the complexity of these issues and their mutual impact."
+        + "Our mission is to guide each individual towards not just recovery, but a richer, more meaningful life."
+        + ...
+
+- VÅra behandlingar
+    * Snygga till bullets
+    * Bild (freedom Fotios)
+    * Uppdatera text så fort mamma översatt den
+
+- Kontakta oss 
+    * Lägg till adressinfo och mail/tele bredvid kontaktformuläret

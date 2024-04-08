@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-08 17:27+0100\n"
+"POT-Creation-Date: 2024-03-04 14:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,129 +22,140 @@ msgstr ""
 msgid "SYNAPTIC - about our clinic"
 msgstr "SYNAPTIC - om vår klinik"
 
-#: .\main\templates\main\about.html:21 .\templates\base.html:24
+#: .\main\templates\main\about.html:20 .\templates\base.html:24
 msgid "About us"
 msgstr "Om oss"
 
-#: .\main\templates\main\about.html:22
-msgid ""
-"Synaptic is a newly started modern addiction rehab center that offers in-"
-"clinic treatment in Greece. It is a colloboration between psychiatrists from "
-"Sweden and Greece with decades of experience between them. We are inspired "
-"by the massive scientific insights that have emerged since the 1970’s into "
-"the complexities of addictive disorder. Evidence shows that addiction is a "
-"multifactorial condition, intimately linked to psychiatric and social "
-"factors in a manner that makes successful treatment impossible unless the "
-"patient’s entire life situation is taken into consideration. Addictive "
-"disorder is connected to certain substances’ potential to cause craving and "
-"physical problems for persons who are addicted, but also to a lack of social "
-"context and meaning in life. It is closely intertwined with several "
-"psychiatric and neuropsychiatric conditions that can obstruct recovery if "
-"not they, too, are treated. That is why Synaptic does not only offer "
-"traditional 12-step treatment, relapse prevention, and motivational therapy, "
-"but also continuously adapts the treatment options to the individual client."
-msgstr ""
-"Synaptix är en modern beroendeklinik som erbjuder behadnlingshemsvistelse i "
-"Grekland. Vi är inspirerade av den massiva vetenskap kring "
-"beroendetillstånds komplexitet som kommit sedan 1970-talet och framåt och "
-"som visar att beroende är ett multifaktioriellt tillstånd som är intimt "
-"kopplat till psykiatriska och social faktorer på ett sätt som omöjliggör "
-"framgångsrik behandling om man inte beaktar hela människans livssituation. "
-"Beroendesjukdomen handlar om olika substansers potential att skapa sug och "
-"fysiska problem om man fastnar i själva beroendet, men också om brist på "
-"socialt sammanhang och känsla av mening i livet. Det är intimt sammankopplat "
-"med ett flertal psykiatriska och neuropsykiatriska tillstånd som kan "
-"omöjliggöra tillfrisknande om de inte också behandlas. Därför erbjuder "
-"Synaptic inte enbart sedvanlig tolvstegsbehandling, återfallsprevention och "
-"motiverande samtal utan individanpassar ständigt behandlingsutbudet för den "
-"enskilde klienten."
-
-#: .\main\templates\main\about.html:24
-msgid ""
-"We have access to experienced doctors, specializing in addiction medicine "
-"and psychiatry, seven days a week, as well as therapists and nurses trained "
-"in modern addiction care. Our approach is not to judge or moralize, instead "
-"we want to offer an alternative for those who face the greatest challenges "
-"in recovering from addiction, i.e. those who have a known or undiagnosed "
-"psychiatric comorbidity, those who have exhausted other options and tried "
-"different clinics but still relapse after completed treatment and those who "
-"have a weak or non-existent social network."
-msgstr ""
-"Med tillgång till erfarna specialistläakrrer i beroendemedicin och psykiatri "
-"sju dagar i veckan och med terapeuter och sjuksköterskor utbildade i modern "
-"beroendevård utan vare sig pekpinnar eller moraliserande attityd har vi ett "
-"alternativ för de som har svårast att bli av med sitt beroende. De som har "
-"en utredd eller ännu inte känd psykiatrisk samsjuklighet. De som har provat "
-"olika behandlingshem med ständiga återfall efter avslutad behandling där set "
-"social nätverket är svagt eller saknas. "
-
 #: .\main\templates\main\about.html:26
 msgid ""
-"Synaptic closely monitors the clients’ wellbeing through all the various "
-"aspects that perpetuate the addiction, we can also offer treatment optimized "
-"for the individual patient. This may entail making a neuropsychiatric "
-"assessment at the clinic. It could also mean determining if a patient "
-"suffers from depression or anxiety disorder and requires psychotherapy or "
-"medication to treat these in order to maintain sobriety. We also offer the "
-"most up-to-date treatments for the addictive disorder itself, which is not "
-"always the case at addiction rehab clinics in Sweden. We follow research and "
-"developments in the field very closely and adjust our range of offerings "
-"accordingly."
+"Welcome to Synaptic MindCare – A New Perspective on Mental Health and "
+"Recovery"
 msgstr ""
-"I och med att Synaptic har möjlighet att följa klienternas mående utifrån "
-"alla de aspekter som vidmakthåller beroendet kan vi också erbjuda det som är "
-"bäst för den enskilda patienten. Det kan innebära att vi under tiden på "
-"kliniken gör en neuropsykiatrisk utredning. Det kan också innebära att vi "
-"uppmärksammar att klienten är deprimerad eller lider av ett ångestsyndrom "
-"och behöver psykoterapi eller medicin för det för att kunna upprätthålla "
-"nykterhet och drogfrihet.  Vi erbjuder också den mest moderna farmakologiska "
-"behandlingen för själva beroendetilstånden vilket inte alltid ges på "
-"beroendekliniker i Sverige. Vi följer ständigt forskning och utveckling inom "
-"området och anpassar vårt utbud efter detta över tid. "
+"Välkommen till Synaptic MindCare – Ett nytt perspektiv på mental hälsa och "
+"återhämtning"
 
 #: .\main\templates\main\about.html:28
 msgid ""
-"Treatment of addictive disorders is currently going through a massive "
-"transformation, both in regard to psychotherapy and pharmacological options. "
-"In order to offer the very best, state-of-the -art treatment, Synaptic keeps "
-"a close tab on global research, so that clients have access to the specific "
-"treatment option for which there is most evidence for their particular "
-"problem. Addictive disorder is never a singular syndrome, rather it is a "
-"product of both the individual and the substance involved. How difficult it "
-"is to reach and maintain sobriety depends on which substance is being "
-"abused. The most addictive substances, which according to scientific "
-"evidence have the most negative effects on individuals and society, are "
-"opioids and alcohol. Synaptic is the only Swedish addiction rehab concept "
-"outside of the public health system that can offer a full range of addictive "
-"disorder treatments and, as opposed to public health facilities, our clients "
-"can receive such help continuously throughout their stay in Greece."
+"Located in the picturesque landscape of Greece, Synaptic MindCare is "
+"redefining psychiatric care by introducing a holistic model that encompasses "
+"a broad spectrum of psychiatric conditions, including treatments for "
+"treatment-resistant depression, anxiety, geriatric psychiatry, and "
+"integrated substance use care. By acknowledging the intricate link between "
+"mental health conditions and the individual and social factors influencing "
+"them, we aim to provide care that comprehensively addresses the whole person."
 msgstr ""
-"Behandlingen av beroendetillstånd genomgår en enorm utveckling såväl utifrån "
-"psykoterapeutiska varianter men också rent farmakologiskt och för att kunna "
-"erbjuda bästa tänkbara vård måste forskning följas globalt så att klienterna "
-"får tillgång till den medicin som har bäst evidens för det särskilda problem "
-"som klienten har. Beroendetillstånd är aldrig ett enskilt syndrom utan beror "
-"på idvid och substans. Hur svårt det är att bli nykter och drogfri beror på "
-"vad man fastat i för substans. De mest beroendeframkallande substanserna som "
-"enligt vetenskap har störst negativ effekt på såväl individ som samhälle är "
-"alkohol och opiater. Vi är det idag enda svenska beroendekonceptet utanför "
-"regionens egna beroendekliniker som kan erbjuda en fullständig "
-"beroendemedicinsk behandling och till skillnad från regionens beroendevård "
-"kan våra klienter få sådan hjälp under hela sin vistelsetid på sjukhus i "
-"Grekland."
+"Vid Synaptic MindCare, beläget i det vackra Grekland, omdefinierar vi "
+"tillgången till psykiatrisk vård genom att erbjuda en holistisk vårdmodell "
+"som adresserar ett brett spektrum av psykiatriska tillstånd, inklusive "
+"behandlingar för terapiresistent depression ångest, äldrepsykiatri, samt "
+"beroendevård som en integrerad del av vårt tjänsteutbud. Genom att erkänna "
+"det djupa sambandet mellan psykiskatillstånd och de individuella och sociala "
+"faktorer som påverkar dem, strävar vi efter att erbjuda en vård som ser och "
+"behandlar hela människan."
 
 #: .\main\templates\main\about.html:30
 msgid ""
-"We are currently hosted within the GALENE clinic facilities. The clinic, "
-"which was founded in 1971, offers patients world class care for psyciatric "
-"disorders. You can read more about the clinic and see photos of the "
-"faclities at"
+"Our approach is grounded in the belief that each individual is unique, "
+"leading us to offer flexible and personalized treatment plans. Our team, "
+"composed of experts with a wide range of experience in psychiatric "
+"conditions, is committed to delivering compassionate and effective care. Our "
+"medical professionals, including doctors, psychologists, and nurses, are all "
+"trained in contemporary psychiatric and substance use care therapies, "
+"ensuring a non-judgmental and empathetic treatment environment."
 msgstr ""
-"Vår verksamhets drivs för närvarande i GALENE-klinikens lokaler. Kliniken, "
-"som grundades 1971, erbjuder patienter psykiatrisk vård i världsklass. Du "
-"kan läsa mer om kliniken och se bilder på"
+"Vår filosofi bygger på att varje person är unik, vilket återspeglas i vårt "
+"flexibla och kontinuerligt anpassade behandlingsutbud. Vårt team av "
+"specialister har bred erfarenhet över ett omfattande spektrum av "
+"psykiatriska tillstånd. Vi är stolta över att kunna erbjuda en medkännande "
+"och effektiv vård, där läkare, psykologer och sjuksköterskor, utbildade i "
+"modern psykiatri och specialiserade på bland annat beroendevård, arbetar "
+"utan pekpinnar eller moraliserande attityder."
 
-#: .\main\templates\main\about.html:30
+#: .\main\templates\main\about.html:31
+msgid ""
+"We are equipped to manage both general and neuropsychiatric conditions, "
+"understanding the complexity of these issues and their mutual impact."
+msgstr ""
+"Vi tar oss an utmaningen att behandla allmänna och neuropsykiatriska "
+"tillstånd med en förståelse för dessa tillstånds komplexitet och inbördes "
+"påverkan."
+
+#: .\main\templates\main\about.html:32
+msgid ""
+"We are equipped to manage both general and neuropsychiatric conditions, "
+"understanding the complexity of these issues and their mutual impact. This "
+"enables us to formulate holistic treatment plans that target not just the "
+"symptoms but also the root causes, whether it's anxiety, depression, ADHD, "
+"or other psychiatric diagnoses. Additionally, our substance use treatment is "
+"seamlessly integrated into our overall care, customized to meet the specific "
+"needs of each individual without being the focal point of our services."
+msgstr ""
+"Vi tar oss an utmaningen att behandla allmänna och neuropsykiatriska "
+"tillstånd med en förståelse för dessa tillstånds komplexitet och inbördes "
+"påverkan. Detta innebär att vi kan erbjuda holistiska behandlingsplaner som "
+"inte bara fokuserar på symptomen utan också på de underliggande orsakerna, "
+"oavsett om det handlar omångest, depression, ADHD eller andra psykiatriska "
+"diagnoser. Inom ramen för detta erbjuder vi även behandling för beroende som "
+"en del av vår omfattande vård, skräddarsydd för att möta individuella behov "
+"utan att det är huvudfokuset för vårverksamhet."
+
+#: .\main\templates\main\about.html:34
+msgid ""
+"As the currently sole Swedish concept for substance use treatment outside of "
+"the regional clinics, Synaptic MindCare distinguishes itself by providing "
+"comprehensive psychiatric care, including access to innovative treatments "
+"like ketamine therapy for treatment-resistant depression. This capability is "
+"enhanced by our partnership with the GALENE clinic, established in 1971 and "
+"renowned for its world-class psychiatric services."
+msgstr ""
+"Som det för närvarande enda svenska beroendekonceptet utanför regionens egna "
+"beroendekliniker, skiljer sig Synaptic MindCare genom att erbjuda en "
+"fullständig psykiatrisk behandling, inklusive tillgång till "
+"ketaminbehandling mot terapiresistent depression. Detta unika "
+"tillvägagångssätt är möjligt tack vare vårtsamarbete med GALENE-kliniken, "
+"grundad 1971, känd för sin psykiatriska vård i världsklass."
+
+#: .\main\templates\main\about.html:35
+msgid ""
+"Committed to staying at the forefront of research and advancements in our "
+"field, we ensure our clients receive the most effective, evidence-based "
+"treatments available."
+msgstr ""
+"Dedikerade till att följa den senaste forskningen och utvecklingen inom våra "
+"fält, säkerställer vi att våra klienter får tillgång till de mest effektiva "
+"och evidensbaserade behandlingsmetoderna."
+
+#: .\main\templates\main\about.html:36
+msgid ""
+"Committed to staying at the forefront of research and advancements in our "
+"field, we ensure our clients receive the most effective, evidence-based "
+"treatments available. Our mission is to guide each individual towards not "
+"just recovery, but a richer, more meaningful life."
+msgstr ""
+"Dedikerade till att följa den senaste forskningen och utvecklingen inom våra "
+"fält, säkerställer vi att våra klienter får tillgång till de mest effektiva "
+"och evidensbaserade behandlingsmetoderna. Vår målsättning är att erbjuda en "
+"väg tillinte bara återhämtning utan också till ett mer uppfyllande och "
+"meningsfullt liv."
+
+#: .\main\templates\main\about.html:38
+msgid ""
+"Synaptic MindCare is here to accompany you on your journey towards recovery "
+"and self-discovery. We recognize that improving mental health is a deeply "
+"personal journey, fraught with challenges but also filled with "
+"opportunities. Our dedicated team is ready to provide the support and "
+"expertise needed at every step of your journey. For a closer look at the "
+"environment we offer our patients, you are welcome to read more about our "
+"collaboration with the GALENE clinic and view pictures on their website."
+msgstr ""
+"Synaptic MindCare är din partner på resan mot återhämtning och "
+"självupptäckt. Vi förstår att vägen till bättre mental hälsa är personlig, "
+"fylld med utmaningar och möjligheter. Vår tillgänglighet, omsorg och "
+"expertis finns där för att stödja dig genom varje steg på vägen. Du kan läsa "
+"mer om vårt samarbete med GALENE-kliniken och se bilder på deras hemsida, "
+"för att få en känsla av den miljö vierbjuder våra patienter."
+
+#: .\main\templates\main\about.html:39
 msgid "GALENE's website"
 msgstr "GALENEs hemsida"
 
@@ -287,210 +298,193 @@ msgstr "Synaptic - våra medarbetare"
 msgid "Our treatments"
 msgstr "Våra behandlingar"
 
-#: .\main\templates\main\treatments.html:21
-msgid ""
-"At Synaptic, the patient is always at the center of what we do and every "
-"treatment program is tailored to each individual's need. In addition to a "
-"traditional 12-step treatment we also offer relapse prevention, and "
-"motivational therapy, but also continuously adapts the treatment options to "
-"the individual client."
-msgstr ""
-"På Synaptic är patienten alltid i centrum för allt vi gör och alla "
-"behandlingsprogram är skräddarsydda för varje enskild patient. Utöver ett "
-"traditionellt 12-stegsprogram erbjuder vi även prevention av återfall och "
-"motivationsterapi. Under behandlingens gång utvärderar vi och anpassar "
-"kontinuerligt utifrån varje patients behov och resultat. "
-
-#: .\main\templates\main\treatments.html:22
-msgid ""
-"Our staff has decades of experience between them. We have a combination of "
-"different occupations on campus to suit the needs of our patiens. Several of "
-"staff has both clinical and educational experience in both Sweden and Greece."
-msgstr ""
-"Vår personal har årtionden av erfarenhet mellan sig. Vi har en kombination "
-"av olika yrkelsroller på plats i kliniken för att säkra att vi kan möta "
-"varje patients behov. Flertalet av vår personal har både klinisk erfarenhet "
-"och utbildning från både Sverige och Grekland."
-
-#: .\main\templates\main\treatments.html:23
-msgid ""
-"Below you can read more about our daily schedule, accomodation, staff on "
-"campus and activities"
-msgstr ""
-"Nedan kan du läs med om vårt dagliga schema, rum, personal på plats och "
-"aktiviteter."
-
 #: .\main\templates\main\treatments.html:24
-msgid "Indicative daily schedule"
-msgstr "Indikativt daglit schema"
+msgid ""
+"At Synaptic Mindcare, we offer tailored treatment programs that span a wide "
+"spectrum of psychiatric diagnoses, including depression, anxiety, neuro-"
+"psychiatric disorders, geriatric psychiatry and addictive disorders."
+msgstr ""
+"På Synaptic MindCare erbjuder vi skräddarsydda vårdprogram som omfattar ett "
+"brett spektrum av psykiatriska tillstånd, inklusive svårbehandlad "
+"depression, ångest, neuropsykiatriska störningar, äldrepsykiatri och "
+"beroendetillstånd."
 
 #: .\main\templates\main\treatments.html:25
-msgid "Breakfast"
-msgstr "Frukost"
-
-#: .\main\templates\main\treatments.html:26
-msgid "Doctor - rounds"
-msgstr "Läkare besök - rond"
-
-#: .\main\templates\main\treatments.html:27
-msgid "Patient meeting - Doctor"
-msgstr "Patientsamtal - Läkare"
-
-#: .\main\templates\main\treatments.html:28
-msgid "Patient meeting - Psychologist/Occupational therapist"
-msgstr "Patientsamtal - Psykolog eller Arbetsterapeut"
-
-#: .\main\templates\main\treatments.html:29
-msgid "Lunch"
-msgstr "Lunch"
-
-#: .\main\templates\main\treatments.html:30
-msgid "Rest"
-msgstr "Vila"
-
-#: .\main\templates\main\treatments.html:31
-msgid "12-step treatment (5 times / week)"
-msgstr "12-stegsbehandling (5 ggr / vecka)"
-
-#: .\main\templates\main\treatments.html:32
-msgid "Yoga (3 times / week)"
-msgstr "Yoga (3 ggr / vecka)"
-
-#: .\main\templates\main\treatments.html:33
-msgid "Free time"
-msgstr "Patientens egentid"
-
-#: .\main\templates\main\treatments.html:34
-msgid "Dinner"
-msgstr "Middag"
-
-#: .\main\templates\main\treatments.html:35
-msgid "Sleep"
-msgstr "Sovtid"
-
-#: .\main\templates\main\treatments.html:36
-msgid "Weekends - excursion (either Saturday or Sunday)"
-msgstr "Helgerna . utflykt (antingen lördag eller söndag)"
-
-#: .\main\templates\main\treatments.html:38
-msgid "Accomodation and offer"
-msgstr "Rum och behandling"
-
-#: .\main\templates\main\treatments.html:39
-msgid "Double room with ensuite (7 total)"
-msgstr "Dubbelrum med eget badrum (7 totalt)"
-
-#: .\main\templates\main\treatments.html:40
-msgid "Single room with ensuite (2 total)"
-msgstr "Singelrum med eget badrum (2 totalt)"
-
-#: .\main\templates\main\treatments.html:41
-msgid "Suite (2 total)"
-msgstr "Svit (2 totalt)"
-
-#: .\main\templates\main\treatments.html:43
-msgid "Psychologist and occupational therapist included (English speaking)"
-msgstr "Psykolog och arbetsterapeut (på engelska)"
-
-#: .\main\templates\main\treatments.html:44
 msgid ""
-"Pharmacological treatment for addiction included as a complement on "
-"individual basis. Continuous blood tests are taken to assert correct "
-"treatment."
+"Our treatments include evidence-based methods that are always adapted to "
+"each patient’s specific and unique needs and development. Our team has a "
+"rich and broad competence and long experience, with backgrounds in both "
+"Sweden and Greece. By integrating different fields of expertise, we ensure "
+"that each patient receives thorough and empathetic care on their journey to "
+"recovery."
 msgstr ""
-"Farmakologisk behandling för beroendesjukdomar. Regelbundna provtagningar "
-"för att säkerställa korrekt behandling."
+"Vår behandling inkluderar evidensbaserade metoder, alltid anpassade efter "
+"patientens unika behov och utveckling. Vårt team är rikt påmångsidig "
+"kompetens och lång erfarenhet, med bakgrund från både Sverige och Grekland. "
+"Genom att integrera olika expertiser säkerställer vi en omfattande och "
+"empatisk vård för varje individ påderas resa mot återhämtning."
 
-#: .\main\templates\main\treatments.html:45
-msgid ""
-"We have the possibility to evaluate and initiate pharmacological treatment "
-"of comorbid conditions."
-msgstr ""
-"Vi har också möjlighet till utredning av comorbida tillstånd och i "
-"förekommande fall initiering av farmakaterapi."
-
-#: .\main\templates\main\treatments.html:46
-msgid ""
-"We also have possibility to evaluate and initiate treatment for "
-"neuropsychiatric conditions"
-msgstr ""
-"Det finns även möjlighet till neuropsykiatriska utredningar samt insättning "
-"av farmaka vid behov."
-
-#: .\main\templates\main\treatments.html:48
-msgid "Staff on location"
-msgstr "Personal på plats"
-
-#: .\main\templates\main\treatments.html:49
-msgid ""
-"Dr. Fotis Eleftheriadis (Psychiatrist, Addiction specialist; educated in "
-"Sweden)"
-msgstr ""
-"Dr Fotis Eleftheriadis (Psykiater, Beroendespecialist; utbildad i Sverige)"
-
-#: .\main\templates\main\treatments.html:50
-msgid ""
-"Dr. Giorgos Vyrinis (Psychiatrist, Lic. Psychotherapist; educated in Sweden)"
-msgstr "Dr Giorgos Vyrinis (Psykiater, Leg Psykoterapeut; utbildad i Sverige)"
-
-#: .\main\templates\main\treatments.html:51
-msgid "Dr. Christodoulakis Theo (Doctor Psychiatrist)"
-msgstr "Dr. Christodoulakis Theo (Läkare Psykiater)"
-
-#: .\main\templates\main\treatments.html:52
-msgid "Dr. Mantzioros Marios (Doctor Psychiatrist)"
-msgstr "Dr. Mantzioros Marios (Läkare Psykiater)"
-
-#: .\main\templates\main\treatments.html:53
-msgid "12-step treatment specialists"
-msgstr "Specialister på 12-stegsbehandling"
-
-#: .\main\templates\main\treatments.html:54
-msgid ""
-"Yoga instructor part time 3 times per week, plus 1 day per weekend for the "
-"group that doesn't go on excursion."
-msgstr ""
-"Yogainstruktör deltid 3 gånger per vecka plus 1 helgdag för den grupper som "
-"inte följer på utflykt"
-
-#: .\main\templates\main\treatments.html:55
-msgid "Swedish speaking contact person"
-msgstr "Svensktalande kontaktperson"
-
-#: .\main\templates\main\treatments.html:56
-msgid "Minibus and driver on campus"
-msgstr "Minibuss och chauförr"
-
-#: .\main\templates\main\treatments.html:57
-msgid "Psychologist and occupational therapist (English speaking)"
-msgstr "Psykolog och arbetsterapeut (på engelska)"
-
-#: .\main\templates\main\treatments.html:58
-msgid "Physiotherapist medical massage"
-msgstr "Fysioterapeut medicinsk massage"
-
-#: .\main\templates\main\treatments.html:60
-msgid "Activities with occupational therapist"
-msgstr "Fysioterapeut medicinsk massage"
-
-#: .\main\templates\main\treatments.html:61
-msgid "Art therapy"
-msgstr "Konstterapi - ART THERAPY"
-
-#: .\main\templates\main\treatments.html:62
-msgid "Crafts"
-msgstr "Hantverk"
-
-#: .\main\templates\main\treatments.html:63
-msgid "Reading and discussion groups"
-msgstr "Diskussiongrupp - Läsningsgrupp"
-
-#: .\main\templates\main\treatments.html:64
-msgid "Film"
-msgstr "Filmvisningsgrupp"
-
+#: .\main\templates\main\treatments.html:27 .\templates\base.html:25
 msgid "Treatments"
 msgstr "Behandlingar"
+
+#: .\main\templates\main\treatments.html:28
+msgid ""
+"Pharmacological treatment for difficult-to-treat depression, anxiety, neuro-"
+"psychiatric disorders, geriatric psychiatry and addictive disorders."
+msgstr ""
+"Farmakologisk behandling mot svårbehandlad depression, ångest, "
+"neuropsykiatriska tillstånd, äldrepsykiatri och beroendesjukdomar."
+
+#: .\main\templates\main\treatments.html:29
+msgid ""
+"Oral pharmacological treatment for difficult-to-treat depression, ketamine "
+"IV or ECT."
+msgstr ""
+"Farmakologisk behandling mot svårbehandlad depression i tablettform, ketamin "
+"IV alternativt ECT."
+
+#: .\main\templates\main\treatments.html:30
+msgid "Withdrawal treatment for various addictive disorders."
+msgstr "Abstinens behandling vid olika beroendetillstånd."
+
+#: .\main\templates\main\treatments.html:31
+msgid "Regular testing to ensure patient safety."
+msgstr "Regelbundna provtagningar för patientsäker vård."
+
+#: .\main\templates\main\treatments.html:32
+msgid ""
+"Assessment of co-morbidity with other psychiatric disorders and initiation "
+"of pharmacological treatment."
+msgstr ""
+"Möjlighet till utredning av samsjuklighet av andra psykiatriska tillstånd "
+"och initiering av läkemedelsbehandling."
+
+#: .\main\templates\main\treatments.html:33
+msgid ""
+"Neuro-psychiatric assessment for differential diagnostic purposes and "
+"commencement of medication if needed."
+msgstr ""
+"Neuropsykiatrisk utredning i differentiell diagnostiskt syfte och insättning "
+"av läkemedel vid behov."
+
+#: .\main\templates\main\treatments.html:35
+msgid "Team of doctors"
+msgstr "Läkarteam"
+
+#: .\main\templates\main\treatments.html:36
+msgid ""
+"Currently we have 4 psychiatrists on site (two of these are Swedish citizens "
+"and trained in Sweden). In additions to this, two psychiatrists are "
+"available for digital sessions. These two will sometimes also be present on "
+"site."
+msgstr ""
+"I dagsläget har vi fyra psykiater på plats (varav två är svenska medborgare och "
+"utbildade i Sverige). Utöver det har vi två psykiater tillgängliga för digitala sessioner, " 
+"men som även kommer att befinna sig på plats periodvis."
+
+#: .\main\templates\main\treatments.html:38
+msgid "Other staff on site"
+msgstr "Övrig personal på plats"
+
+#: .\main\templates\main\treatments.html:40
+msgid "Therapist with specialist training in the 12-step program."
+msgstr "Terapeut med specialistkompetens inom 12-stegsbehandling"
+
+#: .\main\templates\main\treatments.html:41
+msgid ""
+"Psychologist and occupational therapist (English speaking, recruitment of "
+"Swedish speaking staff is ongoing)."
+msgstr ""
+"Psykolog och arbetsterapeut (engelsktalande men det pågår rekrytering av "
+"svensktalande personer)"
+
+#: .\main\templates\main\treatments.html:42
+msgid ""
+"Yoga instructor (part-time 3 times a week plus weekends for those patients "
+"who are not participating in outings)."
+msgstr ""
+"Yogainstruktör (deltid 3 gånger per vecka plus 1 helgdag för de grupper som "
+"inte deltar i utflykter)"
+
+#: .\main\templates\main\treatments.html:43
+msgid "Contact person (Swedish speaking)."
+msgstr "Kontaktperson (svensktalande)"
+
+#: .\main\templates\main\treatments.html:44
+msgid "Minibus with driver."
+msgstr "Minibuss med chaufför"
+
+#: .\main\templates\main\treatments.html:45
+msgid "Physiotherapist for medicinal massage."
+msgstr "Fysioterapeut/sjukgymnast för medicinsk massage"
+
+#: .\main\templates\main\treatments.html:46
+msgid "Art therapy."
+msgstr "Konst- och bildterapi"
+
+#: .\main\templates\main\treatments.html:47
+msgid "Crafts."
+msgstr "Hantverk"
+
+#: .\main\templates\main\treatments.html:48
+msgid "Discussion and reading groups."
+msgstr "Diskussions- och läsningsgrupp"
+
+#: .\main\templates\main\treatments.html:49
+msgid "Film group."
+msgstr "Filmvisningsgrupp"
+
+#: .\main\templates\main\treatments.html:53
+msgid "Daily schedule"
+msgstr "Dagligt schema"
+
+#: .\main\templates\main\treatments.html:55
+msgid "Breakfast."
+msgstr "Frukost"
+
+#: .\main\templates\main\treatments.html:56
+msgid "Medical round."
+msgstr "Läkarbesök/Rond"
+
+#: .\main\templates\main\treatments.html:57
+msgid "Visit to doctor."
+msgstr "Samtal med läkare"
+
+#: .\main\templates\main\treatments.html:58
+#, fuzzy
+#| msgid "Talk with psychologist/ occupational therapist."
+msgid "Talk with psychologist/occupational therapist."
+msgstr "Samtal med psykolog eller arbetsterapeut"
+
+#: .\main\templates\main\treatments.html:59
+msgid "Lunch."
+msgstr "Lunch"
+
+#: .\main\templates\main\treatments.html:60
+msgid "Rest."
+msgstr "Vila"
+
+#: .\main\templates\main\treatments.html:61
+msgid "12-step treatment (5 times per week)."
+msgstr "12-stegsbehandling (5 gånger per vecka)"
+
+#: .\main\templates\main\treatments.html:62
+msgid "Yoga (3 times per week)."
+msgstr "Yoga (3 gånger per vecka)"
+
+#: .\main\templates\main\treatments.html:63
+#, fuzzy
+#| msgid ""
+#| "Weekend activities include excursions, always accompanied by staff. These "
+#| "excursions are of a therapeutic and/ or cultural nature."
+msgid ""
+"Weekend activities include excursions, always accompanied by staff. These "
+"excursions are of a therapeutic and/or cultural nature."
+msgstr ""
+"Helgaktiviteter inkluderar utflykt, alltid med personal som medföljer "
+"patienterna. Utflykterna är av terapeutisk natur eller kulturella "
+"upplevelser."
 
 #: .\templates\base.html:26
 msgid "Our staff"
@@ -507,3 +501,247 @@ msgstr "Cookies"
 #: .\templates\base.html:60
 msgid "To the top"
 msgstr "Till toppen"
+
+#~ msgid ""
+#~ "Below you can read more about our daily schedule, accomodation, staff on "
+#~ "campus and activities"
+#~ msgstr ""
+#~ "Nedan kan du läs med om vårt dagliga schema, rum, personal på plats och "
+#~ "aktiviteter."
+
+#~ msgid ""
+#~ "4 psychiatrists on site (two of these are Swedish citizens and trained in "
+#~ "Sweden)."
+#~ msgstr ""
+#~ "Fyra psykiater på plats (varav två är svenska medborgare och utbildade i "
+#~ "Sverige)"
+
+#~ msgid ""
+#~ "At Synaptic, the patient is always at the center of what we do and every "
+#~ "treatment program is tailored to each individual's need. In addition to a "
+#~ "traditional 12-step treatment we also offer relapse prevention, and "
+#~ "motivational therapy, but also continuously adapts the treatment options "
+#~ "to the individual client."
+#~ msgstr ""
+#~ "På Synaptic är patienten alltid i centrum för allt vi gör och alla "
+#~ "behandlingsprogram är skräddarsydda för varje enskild patient. Utöver ett "
+#~ "traditionellt 12-stegsprogram erbjuder vi även prevention av återfall och "
+#~ "motivationsterapi. Under behandlingens gång utvärderar vi och anpassar "
+#~ "kontinuerligt utifrån varje patients behov och resultat. "
+
+#~ msgid ""
+#~ "Our staff has decades of experience between them. We have a combination "
+#~ "of different occupations on campus to suit the needs of our patiens. "
+#~ "Several of staff has both clinical and educational experience in both "
+#~ "Sweden and Greece."
+#~ msgstr ""
+#~ "Vår personal har årtionden av erfarenhet mellan sig. Vi har en "
+#~ "kombination av olika yrkelsroller på plats i kliniken för att säkra att "
+#~ "vi kan möta varje patients behov. Flertalet av vår personal har både "
+#~ "klinisk erfarenhet och utbildning från både Sverige och Grekland."
+
+#~ msgid "Doctor - rounds"
+#~ msgstr "Läkare besök - rond"
+
+#~ msgid "Patient meeting - Doctor"
+#~ msgstr "Patientsamtal - Läkare"
+
+#~ msgid "Free time"
+#~ msgstr "Patientens egentid"
+
+#~ msgid "Dinner"
+#~ msgstr "Middag"
+
+#~ msgid "Sleep"
+#~ msgstr "Sovtid"
+
+#~ msgid "Weekends - excursion (either Saturday or Sunday)"
+#~ msgstr "Helgerna . utflykt (antingen lördag eller söndag)"
+
+#~ msgid "Accomodation and offer"
+#~ msgstr "Rum och behandling"
+
+#~ msgid "Double room with ensuite (7 total)"
+#~ msgstr "Dubbelrum med eget badrum (7 totalt)"
+
+#~ msgid "Single room with ensuite (2 total)"
+#~ msgstr "Singelrum med eget badrum (2 totalt)"
+
+#~ msgid "Suite (2 total)"
+#~ msgstr "Svit (2 totalt)"
+
+#~ msgid "Psychologist and occupational therapist included (English speaking)"
+#~ msgstr "Psykolog och arbetsterapeut (på engelska)"
+
+#~ msgid ""
+#~ "Pharmacological treatment for addiction included as a complement on "
+#~ "individual basis. Continuous blood tests are taken to assert correct "
+#~ "treatment."
+#~ msgstr ""
+#~ "Farmakologisk behandling för beroendesjukdomar. Regelbundna provtagningar "
+#~ "för att säkerställa korrekt behandling."
+
+#~ msgid ""
+#~ "We have the possibility to evaluate and initiate pharmacological "
+#~ "treatment of comorbid conditions."
+#~ msgstr ""
+#~ "Vi har också möjlighet till utredning av comorbida tillstånd och i "
+#~ "förekommande fall initiering av farmakaterapi."
+
+#~ msgid ""
+#~ "We also have possibility to evaluate and initiate treatment for "
+#~ "neuropsychiatric conditions"
+#~ msgstr ""
+#~ "Det finns även möjlighet till neuropsykiatriska utredningar samt "
+#~ "insättning av farmaka vid behov."
+
+#~ msgid ""
+#~ "Dr. Fotis Eleftheriadis (Psychiatrist, Addiction specialist; educated in "
+#~ "Sweden)"
+#~ msgstr ""
+#~ "Dr Fotis Eleftheriadis (Psykiater, Beroendespecialist; utbildad i Sverige)"
+
+#~ msgid ""
+#~ "Dr. Giorgos Vyrinis (Psychiatrist, Lic. Psychotherapist; educated in "
+#~ "Sweden)"
+#~ msgstr ""
+#~ "Dr Giorgos Vyrinis (Psykiater, Leg Psykoterapeut; utbildad i Sverige)"
+
+#~ msgid "Dr. Christodoulakis Theo (Doctor Psychiatrist)"
+#~ msgstr "Dr. Christodoulakis Theo (Läkare Psykiater)"
+
+#~ msgid "Dr. Mantzioros Marios (Doctor Psychiatrist)"
+#~ msgstr "Dr. Mantzioros Marios (Läkare Psykiater)"
+
+#~ msgid "12-step treatment specialists"
+#~ msgstr "Specialister på 12-stegsbehandling"
+
+#~ msgid "Swedish speaking contact person"
+#~ msgstr "Svensktalande kontaktperson"
+
+#~ msgid "Activities with occupational therapist"
+#~ msgstr "Fysioterapeut medicinsk massage"
+
+#~ msgid "Reading and discussion groups"
+#~ msgstr "Diskussiongrupp - Läsningsgrupp"
+
+#~ msgid "Film"
+#~ msgstr "Filmvisningsgrupp"
+
+#~ msgid ""
+#~ "Synaptic is a newly started modern addiction rehab center that offers in-"
+#~ "clinic treatment in Greece. It is a colloboration between psychiatrists "
+#~ "from Sweden and Greece with decades of experience between them. We are "
+#~ "inspired by the massive scientific insights that have emerged since the "
+#~ "1970’s into the complexities of addictive disorder. Evidence shows that "
+#~ "addiction is a multifactorial condition, intimately linked to psychiatric "
+#~ "and social factors in a manner that makes successful treatment impossible "
+#~ "unless the patient’s entire life situation is taken into consideration. "
+#~ "Addictive disorder is connected to certain substances’ potential to cause "
+#~ "craving and physical problems for persons who are addicted, but also to a "
+#~ "lack of social context and meaning in life. It is closely intertwined "
+#~ "with several psychiatric and neuropsychiatric conditions that can "
+#~ "obstruct recovery if not they, too, are treated. That is why Synaptic "
+#~ "does not only offer traditional 12-step treatment, relapse prevention, "
+#~ "and motivational therapy, but also continuously adapts the treatment "
+#~ "options to the individual client."
+#~ msgstr ""
+#~ "Synaptix är en modern beroendeklinik som erbjuder behadnlingshemsvistelse "
+#~ "i Grekland. Vi är inspirerade av den massiva vetenskap kring "
+#~ "beroendetillstånds komplexitet som kommit sedan 1970-talet och framåt och "
+#~ "som visar att beroende är ett multifaktioriellt tillstånd som är intimt "
+#~ "kopplat till psykiatriska och social faktorer på ett sätt som omöjliggör "
+#~ "framgångsrik behandling om man inte beaktar hela människans "
+#~ "livssituation. Beroendesjukdomen handlar om olika substansers potential "
+#~ "att skapa sug och fysiska problem om man fastnar i själva beroendet, men "
+#~ "också om brist på socialt sammanhang och känsla av mening i livet. Det är "
+#~ "intimt sammankopplat med ett flertal psykiatriska och neuropsykiatriska "
+#~ "tillstånd som kan omöjliggöra tillfrisknande om de inte också behandlas. "
+#~ "Därför erbjuder Synaptic inte enbart sedvanlig tolvstegsbehandling, "
+#~ "återfallsprevention och motiverande samtal utan individanpassar ständigt "
+#~ "behandlingsutbudet för den enskilde klienten."
+
+#~ msgid ""
+#~ "We have access to experienced doctors, specializing in addiction medicine "
+#~ "and psychiatry, seven days a week, as well as therapists and nurses "
+#~ "trained in modern addiction care. Our approach is not to judge or "
+#~ "moralize, instead we want to offer an alternative for those who face the "
+#~ "greatest challenges in recovering from addiction, i.e. those who have a "
+#~ "known or undiagnosed psychiatric comorbidity, those who have exhausted "
+#~ "other options and tried different clinics but still relapse after "
+#~ "completed treatment and those who have a weak or non-existent social "
+#~ "network."
+#~ msgstr ""
+#~ "Med tillgång till erfarna specialistläakrrer i beroendemedicin och "
+#~ "psykiatri sju dagar i veckan och med terapeuter och sjuksköterskor "
+#~ "utbildade i modern beroendevård utan vare sig pekpinnar eller "
+#~ "moraliserande attityd har vi ett alternativ för de som har svårast att "
+#~ "bli av med sitt beroende. De som har en utredd eller ännu inte känd "
+#~ "psykiatrisk samsjuklighet. De som har provat olika behandlingshem med "
+#~ "ständiga återfall efter avslutad behandling där set social nätverket är "
+#~ "svagt eller saknas. "
+
+#~ msgid ""
+#~ "Synaptic closely monitors the clients’ wellbeing through all the various "
+#~ "aspects that perpetuate the addiction, we can also offer treatment "
+#~ "optimized for the individual patient. This may entail making a "
+#~ "neuropsychiatric assessment at the clinic. It could also mean determining "
+#~ "if a patient suffers from depression or anxiety disorder and requires "
+#~ "psychotherapy or medication to treat these in order to maintain sobriety. "
+#~ "We also offer the most up-to-date treatments for the addictive disorder "
+#~ "itself, which is not always the case at addiction rehab clinics in "
+#~ "Sweden. We follow research and developments in the field very closely and "
+#~ "adjust our range of offerings accordingly."
+#~ msgstr ""
+#~ "I och med att Synaptic har möjlighet att följa klienternas mående utifrån "
+#~ "alla de aspekter som vidmakthåller beroendet kan vi också erbjuda det som "
+#~ "är bäst för den enskilda patienten. Det kan innebära att vi under tiden "
+#~ "på kliniken gör en neuropsykiatrisk utredning. Det kan också innebära att "
+#~ "vi uppmärksammar att klienten är deprimerad eller lider av ett "
+#~ "ångestsyndrom och behöver psykoterapi eller medicin för det för att kunna "
+#~ "upprätthålla nykterhet och drogfrihet.  Vi erbjuder också den mest "
+#~ "moderna farmakologiska behandlingen för själva beroendetilstånden vilket "
+#~ "inte alltid ges på beroendekliniker i Sverige. Vi följer ständigt "
+#~ "forskning och utveckling inom området och anpassar vårt utbud efter detta "
+#~ "över tid. "
+
+#~ msgid ""
+#~ "Treatment of addictive disorders is currently going through a massive "
+#~ "transformation, both in regard to psychotherapy and pharmacological "
+#~ "options. In order to offer the very best, state-of-the -art treatment, "
+#~ "Synaptic keeps a close tab on global research, so that clients have "
+#~ "access to the specific treatment option for which there is most evidence "
+#~ "for their particular problem. Addictive disorder is never a singular "
+#~ "syndrome, rather it is a product of both the individual and the substance "
+#~ "involved. How difficult it is to reach and maintain sobriety depends on "
+#~ "which substance is being abused. The most addictive substances, which "
+#~ "according to scientific evidence have the most negative effects on "
+#~ "individuals and society, are opioids and alcohol. Synaptic is the only "
+#~ "Swedish addiction rehab concept outside of the public health system that "
+#~ "can offer a full range of addictive disorder treatments and, as opposed "
+#~ "to public health facilities, our clients can receive such help "
+#~ "continuously throughout their stay in Greece."
+#~ msgstr ""
+#~ "Behandlingen av beroendetillstånd genomgår en enorm utveckling såväl "
+#~ "utifrån psykoterapeutiska varianter men också rent farmakologiskt och för "
+#~ "att kunna erbjuda bästa tänkbara vård måste forskning följas globalt så "
+#~ "att klienterna får tillgång till den medicin som har bäst evidens för det "
+#~ "särskilda problem som klienten har. Beroendetillstånd är aldrig ett "
+#~ "enskilt syndrom utan beror på idvid och substans. Hur svårt det är att "
+#~ "bli nykter och drogfri beror på vad man fastat i för substans. De mest "
+#~ "beroendeframkallande substanserna som enligt vetenskap har störst negativ "
+#~ "effekt på såväl individ som samhälle är alkohol och opiater. Vi är det "
+#~ "idag enda svenska beroendekonceptet utanför regionens egna "
+#~ "beroendekliniker som kan erbjuda en fullständig beroendemedicinsk "
+#~ "behandling och till skillnad från regionens beroendevård kan våra "
+#~ "klienter få sådan hjälp under hela sin vistelsetid på sjukhus i Grekland."
+
+#~ msgid ""
+#~ "We are currently hosted within the GALENE clinic facilities. The clinic, "
+#~ "which was founded in 1971, offers patients world class care for "
+#~ "psyciatric disorders. You can read more about the clinic and see photos "
+#~ "of the faclities at"
+#~ msgstr ""
+#~ "Vår verksamhets drivs för närvarande i GALENE-klinikens lokaler. "
+#~ "Kliniken, som grundades 1971, erbjuder patienter psykiatrisk vård i "
+#~ "världsklass. Du kan läsa mer om kliniken och se bilder på"
