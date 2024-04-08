@@ -13,10 +13,10 @@ Push till Heroku
     1. Git
         A. git add .
         B. git commit -m "xx"
-        C. git push origin main
+        C. git push origin master
     2. Heroku
         A. heroku login
-        B. git push heroku main
+        B. git push heroku master
         [C. heroku run python manage.py migrate] <-- Vid DB ändringar
 
 Översättning:
